@@ -1,0 +1,16 @@
+p { /* Utilizamos un selector de elemento/etiqueta en los párrafos para centrarlos y darles color */
+  text-align: center;
+  color: #2599d6;
+}
+
+#parrafoConcreto { /* Utilizamos un selector de identificados para darle color a los elementos que tengan dicha id */
+  color: #a2341c;
+}
+
+.azulada { /* Creamos una clase para darle color a los elementos que indiquemos con dicha clase */
+  color: #006db3;
+}
+
+h1, h2 { /* Agrupamos por selectores de clase para centrar los indicados en la agrupación */
+  text-align: center;
+}

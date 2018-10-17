@@ -1,0 +1,15 @@
+
+
+
+.listaErrores{
+  background-color: rgb(235, 107, 107);
+  border-radius: 6px;
+}
+
+.form-group {
+  margin-top: 50px;
+    margin-bottom: -30px;
+}
+ .form-control {
+   width: 500px;
+ }

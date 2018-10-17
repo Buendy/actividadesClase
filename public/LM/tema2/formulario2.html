@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de registro - Mi web</title>
+  </head>
+  <body>
+
+    <h2>Formulario de texto</h2>
+    <form action="" method="post">
+      <label for="nombre">Nombre: </label><input type="text" name="nombre" maxlength="50"><br><br>
+      <label for="apellidos">Apellidos: </label><input type="text" name="apellidos" maxlength="50"><br><br>
+      <label for="genero1">Sexo:</label>
+      <label for="genero2">Hombre</label><input type="radio" name="genero" value="Hombre">
+      <label for="genero3">Mujer</label><input type="radio" name="genero" value="Mujer"><br><br>
+      <label for="correo">Correo: </label><input type="email" name="" value=""><br><br>
+      <input type="checkbox" name="check1" value="" checked>
+          <label for="check1">Deseo recibir información sobre novedades y ofertas</label><br><br>
+      <input type="checkbox" name="check2" value="">
+          <label for="check2">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br><br>
+      <label for="poblacion">Población: </label><select id="poblacion" name="poblacion">
+        <option value="Alicante" selected="Alicante">Alicante</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Valencia">Valencia</option>
+      </select><br><br>
+      <label for="descripcion">Descripción: </label><textarea name="areatext" rows="8" cols="80"></textarea><br><br>
+      <label for="btnsubmit"></label><input type="submit" name="boton" value="Enviar">
+
+    </form>
+
+  </body>
+</html>

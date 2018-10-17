@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/static/titles.css">
+    <meta charset="utf-8">
+    <title>Formulario de registro - Mi web</title>
+  <style media="screen">
+    *{
+      margin: 5px;
+    }
+     #check1{
+       margin: 10px !important;
+     }
+     #check2{
+       margin: 10px !important;
+     }
+     body { background-image: url("http://soscreacionesweb.com/sites/default/files/fondo-slide-1_2_0.jpg") }
+
+  </style>
+
+  </head>
+  <body>
+
+  <h2 class="animated once slideInLeft delay-0s" >Formulario de texto</h2>
+  
+    <form action="" method="post">
+
+      <label for="nombre" class="animated once slideInLeft delay-0s"> Nombre: </label><input type="text" class="animated once slideInRight delay-0s"  name="nombre" maxlength="50"><br>
+      <label for="apellidos" class="animated once slideInLeft delay-0s"> Apellidos: </label><input type="text" class="animated once slideInRight delay-0s" name="apellidos" maxlength="50"><br>
+      <label for="genero1" class="animated once slideInLeft delay-0s"> Sexo:</label>
+      <label for="genero2" class="animated once slideInRight delay-0s"> Hombre</label><input type="radio" class="animated once slideInRight delay-0s" name="genero" value="Hombre">
+      <label for="genero3" class="animated once slideInRight delay-0s"> Mujer</label><input type="radio" class="animated once slideInRight delay-0s" name="genero" value="Mujer"><br>
+      <label for="correo" class="animated once slideInLeft delay-0s"> Correo: </label><input type="email" class="animated once slideInRight delay-0s" name="correo" value=""><br>
+
+      <input type="checkbox" id="check1" name="check1" checked>
+          <label for="check1" class="animated once slideInLeft delay-0s" id="chec2"> Deseo recibir información sobre novedades y ofertas</label><br>
+      <input type="checkbox" class="animated once slideInLeft delay-0s" id="check2" name="check2" checked>
+          <label for="check2" class="animated once slideInLeft delay-0s" id="chec2"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+
+      <label for="btnsubmit" ></label><input type="submit" id="btnsubmit" name="boton" value="Enviar">
+
+    </form>
+
+
+    <script src="/static/js/jquery-3.3.1.js"></script>
+    <script src="/static/js/bootstrap.js"></script>
+  </body>
+</html>

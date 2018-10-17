@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+    var num1 = parseInt(prompt('Introduce un número: '));
+    var num2 = parseInt(prompt('Introduce otro número'));
+    var num3 = parseInt(prompt('Intro otro número más'));
+
+    if (num1 > num2 && num1 > num3){
+      alert('El número 1: ' + num1 + ' es el mayor');
+    } else if(num2 > num1 && num2 > num3){
+      alert('El número 2: ' + num2 + ' es el mayor');
+    } else if(num3 > num1 && num3 > num2){
+      alert('El número 3: ' + num3 + ' es el mayor');
+    } else if(num1 == num2 && num1 == num3){
+      alert('Los números están repetidos');
+    } else {
+      alert('Hay números repetidos');
+    }
+
+
+
+
+    </script>
+
+  </body>
+</html>

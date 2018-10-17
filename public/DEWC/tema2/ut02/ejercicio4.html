@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 4</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+    var nota1 = parseFloat(prompt('introduce la primera nota: '));
+    var nota2 = parseFloat(prompt('Introduce la segunda nota: '));
+    var nota3 = parseFloat(prompt('Introduce la tercera nota : '));
+
+    var media = (nota1 + nota2 + nota3) / 3;
+    media = media.toFixed(2);
+
+
+    if (media >= 7){
+      alert('Estás promocionado!!: ' + media);
+    } else if(media >= 4){
+      alert('Regular: ' + media);
+    } else {
+      alert('Suspenso : ' + media);
+    }
+
+    </script>
+
+
+  </body>
+</html>

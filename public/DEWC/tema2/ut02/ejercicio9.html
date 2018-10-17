@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 9</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var num;
+    var numeros = [];
+    var resultado = 0;
+
+    for(var i = 0; i < 5; i++){
+      num = parseInt(prompt('Dime un número'));
+
+    if(!num){
+        alert('No has introducido un número');
+        break;
+      } else {
+        numeros[i] = num;
+      }
+    }
+
+    if(!numeros){
+      alert('no se han introducido números');
+    } else {
+      for (i = 0; i < 5; i++){
+        resultado = resultado + numeros[i];
+    }
+  }
+
+    alert('La suma de todos los números es: ' + resultado);
+
+    </script>
+
+  </body>
+</html>

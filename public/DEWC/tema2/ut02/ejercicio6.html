@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 6</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var arrayMeses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+      var mes = prompt('Dame el mes del año y te diré a que trimestre pertenece: ');
+      var trimestre = mostrarTrimestre(mes, arrayMeses);
+
+      if(trimestre >= 10){
+        alert(mes + ' pertenece al cuarto trimestre');
+      }else if(trimestre >= 7){
+        alert(mes + ' pertenece al tercer trimestre');
+      }else if (trimestre >= 4){
+        alert(mes + ' pertenece al segundo trimestre');
+      }else if(trimestre >= 1){
+        alert(mes + ' pertenece al primer trimestre');
+      }else {
+        alert('Comprueba el mes introducido: ' + mes);
+      }
+
+
+      function mostrarTrimestre(mes, arrayMeses){
+
+        for (var i = 0; i < arrayMeses.length; i ++){
+          if(mes == arrayMeses[i]){
+            return i + 1;
+            break;
+          }
+        }
+        return null;
+
+      }
+
+    </script>
+
+  </body>
+</html>

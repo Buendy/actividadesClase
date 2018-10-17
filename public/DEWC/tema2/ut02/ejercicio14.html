@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercio 14</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var texto = prompt('Introduce una cadena de texto');
+
+    texto = texto.replace(/aes/g, 'ues');
+    texto = texto.replace(/es/g, 'oes');
+    texto = texto.replace(/ies/g, 'aes');
+    texto = texto.replace(/oes/g, 'es');
+    texto = texto.replace(/ues/g, ' ');
+
+    alert(texto);
+    </script>
+  </body>
+</html>

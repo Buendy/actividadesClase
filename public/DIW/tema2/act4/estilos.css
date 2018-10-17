@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
+
+@font-face {
+ font-family: "Charmonman-Regular";
+ src: url("Charmonman-Regular.ttf");
+}
+
+body{
+  background-image: url('fondoboton.jpg');
+  background-attachment: fixed;
+}
+.alineap{
+  text-align:right;
+}
+
+.alineah{
+  text-align: center;
+}
+
+#baja{
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 10px solid blue;
+
+}
+
+#baja:hover{
+  background-color: #00b2ff;
+  border-radius: 5px;
+  border: 10px solid #00b2ff;
+}
+
+#baja:active{
+  color: red;
+  background-color: #00b2ff;
+  border-radius: 5px;
+  border: 10px solid #00b2ff;
+}
+
+#sube{
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 10px solid red;
+}
+
+#sube:hover{
+  background-color: #31aa00;
+  border-radius: 5px;
+  border: 10px solid #31aa00;
+}
+
+#sube:active{
+  color: red;
+  background-color: #31aa00;
+  border-radius: 5px;
+  border: 10px solid #31aa00;
+}
+
+#botones{
+  text-align: center;
+
+}
+
+.boton{
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: black;
+  text-decoration: none;
+}
+
+.boton:hover{
+  font-size: 30px;
+}
+
+.boton:active{
+  color: red;
+}
+.enlace{
+  color: red;
+}
+
+.enlace:hover{
+  font-size: 30px;
+}
+
+.enlace:active{
+  color: yellow;
+}
+
+.fondoenlace {
+  background-image: url('fondoboton2.jpg');
+}
+
+
+
+#h1{
+  text-decoration: underline;
+  text-decoration: line-through;
+  font-family: "Charmonman-Regular", cursive;
+}
+
+#h2{
+  text-decoration: line-through;
+  text-transform: uppercase;
+  color: #daad98;
+}
+#h3{
+  text-decoration:overline;
+  text-transform:full-width;
+  color: #8b8156;
+}
+
+#h4{
+  letter-spacing: 20px;
+  text-transform: capitalize;
+  color: #4d1905;
+}
+
+#h5{
+  letter-spacing: -5px;
+  border-radius: 10px;
+  border-left: solid;
+  font-family: 'Homemade Apple', cursive;
+  color: #7e5588;
+}
+
+#h6{
+  letter-spacing: 5px;
+  text-shadow: 3px 2px red;
+  font-style: oblique;
+  color: #7e5588;
+}
+
+#h7{
+  text-transform: capitalize;
+  text-shadow: 3px 2px #3d3d3d;
+  font-style: oblique;
+  border-bottom: solid;
+
+}
+
+#h8{
+  text-transform: capitalize;
+  text-shadow: 3px 2px #3d3d3d;
+  border-bottom: solid;
+  font-size: 50px;
+  color: #98ba0a;
+}
+
+#h9{
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #98ba0a;
+  font-style: bold;
+}
+
+#h10{
+  font-family: "Comic Sans MS";
+  text-transform: lowercase;
+  font-size: 30px;
+  color: #068e69;
+  font-style: bold;
+  text-decoration: underline;
+}
+
+
+#p1{
+
+  border-style: solid;
+  border-color: #0070ff;
+  border-top: hidden;
+}
+
+#p2 {
+  border-color: #814dc2;
+  border-style: dashed;;
+  border-radius: 10px;
+  border-width:  10px;
+}
+
+
+#p3 {
+  border-color: #770d1a;
+  border-style: solid;
+  border-radius: 10px;
+  border-width:  9px;
+  font-family: "Charmonman-Regular", cursive;
+  border-top: none;
+
+  border-bottom: none;
+}
+
+#p4 {
+
+  border-style: inset;
+  border-color: rgb(58, 159, 33);
+  border-bottom: none;
+}
+
+#p5 {
+  border-color: #e064af;
+  border-style: double;
+  border-width:  20px;
+}
+
+#p6 {
+  border-style: groove;
+  border-width:  10px;
+  border-color: #c7c51d #0fa43e #2bc8e4 #d68229;
+  border-top: hidden;
+}
+
+#p7 {
+  border-style: dotted;
+  border-radius: 1000px;
+  border-width:  9px;
+  border-color: #d68229 #0fa43e #c7c51d #2bc8e4;
+}
+
+#p8 {
+  border-style: inset;
+  border-color: #c7c51d #0fa43e #2bc8e4 #d68229;
+  border-width:  15px;
+    font-family: "Charmonman-Regular", cursive;
+}
+
+#p9 {
+  border-style: ridge;
+  border-color: #46b32b;
+  border-width: 20px;
+  border-left: none;
+  border-right: none;
+}
+
+#p10 {
+  border-style: outset;
+  border-color: #d68229 #0fa43e #c7c51d #2bc8e4;
+  order-radius: 22px;
+  border-width: 10px;
+}

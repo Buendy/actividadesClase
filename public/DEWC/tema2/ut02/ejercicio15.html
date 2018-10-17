@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 15</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+    numeros = [];
+    resultado = '';
+    var resultado2 = 0;
+
+    numeros = cargar();
+    calcular(numeros);
+
+
+    function cargar(){
+      for (var i = 0; i < 5; i++) {
+        numeros[i] = parseInt(prompt('Introduce un número'));
+      }
+      return numeros;
+      }
+
+
+    function calcular(numeros){
+        for(i = 0; i < numeros.length; i++){
+
+          resultado += numeros[i] + ' ';
+          resultado2 = resultado2 + numeros[i];
+        }
+
+        alert(resultado + '= ' + resultado2);
+    }
+    </script>
+
+  </body>
+</html>

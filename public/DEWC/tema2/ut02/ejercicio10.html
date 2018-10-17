@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+    var numero = parseInt(prompt('Introduce un número entre 0 y 999'));
+
+    if(!numero){
+      alert('no has introducido un número');
+    } else{
+      if(numero >= 0 || numero < 999){
+        alert('el número introducido tiene ' + numero.toString().length + ' caracteres' );
+      } else {
+        alert('El número no está dentro del rango');
+      }
+    }
+
+    </script>
+
+  </body>
+</html>
