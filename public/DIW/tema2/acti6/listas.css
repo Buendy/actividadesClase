@@ -1,0 +1,68 @@
+#lista1 {
+  list-style-type: none;
+}
+
+#lista2 {
+  list-style-type: upper-roman;
+}
+
+#lista3 {
+  list-style-type: square;
+}
+
+#lista4 {
+  list-style-image: url('icono2.png');
+}
+
+.lista1{
+  background-color: #929947;
+  color: white;
+  font-family: "Arial";
+  border-left: 12px solid black;
+}
+
+.lista2{
+  background-color: #7a3066;
+  color: #d76626;
+  list-style-position: inside;
+  border-right: 20px solid #ffb50e;
+}
+
+.lista3{
+  background-color: #086000;
+  color: #262079;
+  list-style-position: outside;
+  padding: 20px;
+  border-top: 10px solid #9a001f;
+}
+
+.lista4{
+  background-color: grey;
+  color: #014936;
+  border-top: 30px solid #0019fb;
+}
+
+.lista5{
+  list-style-type: none;
+}
+
+#li1{
+  border-left: 10px solid #ffb50e;
+  font-family: "Arial";
+}
+#li2{
+  border-left: 15px solid #08aa2c;
+  font-family: "sans-serif";
+}
+#li3{
+  border-left: 22px solid #ed4838;
+  font-family: "Monospace";
+}
+#li4{
+  border-left: 40px solid #0e3cff;
+  font-family: "cursive";
+}
+#li5{
+  border-left: 19px solid #71059d;
+  font-family: "fantasy";
+}

@@ -19,6 +19,7 @@
             <li><a href="DIW/tema2/act4/ejercicio4.html">Actividad 4</a></li>
             <li><a href="DIW/tema2/act5/actividad.html">Actividad 5</a></li>
             <li><a href="DIW/tema2/cajas.html">Cajas < div> </a></li>
+            <li><a href="/DIW/tema2/acti6/index.html">Actividad 6</a></li>
       	  </ul>
         </ul>
       </ul>
