@@ -1,0 +1,15 @@
+.holi {
+ max-width: 520px;
+min-width: 200px;
+ border: 25px solid green;
+ padding: 25px;
+ margin: 25px;
+}
+
+.robert {
+ max-width: 370px;
+ min-width: 50px;
+ border: 25px solid green;
+ padding: 25px;
+ margin: 25px;
+}

@@ -1,0 +1,22 @@
+
+/* PARTE 1 */
+.caja1 {
+ width: 100px;
+ border: 15px solid #024e2c;
+ padding: 35px;
+ margin: 80px;
+ background-color: #ffc3e5;
+}
+
+/* PARTE 2 */
+.parraf {
+  margin-top: -30px;
+  margin-left: -30px;
+  border: 30px dotted red;
+}
+
+/* PARTE 3 */
+.caja2 {
+  width: 120px;
+  background-color:#7ac5cc;
+}

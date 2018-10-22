@@ -20,10 +20,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/formulario1/inicio.html">Inicio<span class="sr-only"></span></a>
+        <a class="nav-link" href="inicio.html">Inicio<span class="sr-only"></span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/formulario1/index.php">Registrarse<span class"sr-only"></span></a>
+        <a class="nav-link" href="index.php">Registrarse<span class"sr-only"></span></a>
       </li>
 
       </ul>

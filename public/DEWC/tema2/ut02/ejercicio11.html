@@ -12,14 +12,14 @@
       if(!numero){
         alert('No has introducido un nombre');
       }else {
-        if(numero >= 1 && numero <= 99){
+        if(numero >= 0 && numero <= 99){
 
-          for(var i = 1, y = 0; i <= numero; i++){
+          for(var i = 0, y = 0; i <= numero; i++){
             if(numero%i == 0){
               y ++;
             }
           }
-          if(y == 2){
+          if(y <= 2){
             alert('El número ' + numero + ' es primo');
           }else{
             alert('El número ' + numero + ' no es primo')

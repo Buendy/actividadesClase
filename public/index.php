@@ -17,6 +17,8 @@
           <ul>
       			<li><a href="DIW/tema2/act3/index.html">Actividad 3</a></li>
             <li><a href="DIW/tema2/act4/ejercicio4.html">Actividad 4</a></li>
+            <li><a href="DIW/tema2/act5/actividad.html">Actividad 5</a></li>
+            <li><a href="DIW/tema2/cajas.html">Cajas < div> </a></li>
       	  </ul>
         </ul>
       </ul>
@@ -54,6 +56,19 @@
               </ul>
             </ul>
           </ul>
+
+          <ul>
+            <li>
+              <h2>DEWC</h2>
+              <ul>
+                <li><h4>TEMA 2</h4></li>
+                <ul>
+                  <li><a href="/DEWS/tema6/formulario1/index.php">Formulario 1</a></li>
+                  <li><a href="/DEWS/tema6/formulario2/index.php">Formulario 2</a></li>
+
+                </ul>
+              </ul>
+            </ul>
 
 
 
