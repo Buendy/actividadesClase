@@ -1,0 +1,25 @@
+.centrado{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+  font-family: "arial";
+  background-color: #0270e2;
+  outline: none;
+  color: white;
+  padding: 0px;
+  cursor: pointer;
+  border: 15px solid #0270e2;
+  border-radius: 5px;
+  box-shadow: 3px 3px #999;
+
+}
+
+.button:hover{
+  background-color: #045ebb;
+  border: 15px solid #045ebb;
+  box-shadow: none;
+  transform: translateY(7px) translateY(3px);
+}

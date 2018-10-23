@@ -11,7 +11,7 @@
 }
 
 #lista4 {
-  list-style-image: url('icono2.png');
+  list-style-image: url('icono.png');
 }
 
 .lista1{
@@ -57,7 +57,7 @@
 #li3{
   border-left: 22px solid #ed4838;
   font-family: "Monospace";
-}
+  }
 #li4{
   border-left: 40px solid #0e3cff;
   font-family: "cursive";
@@ -65,4 +65,19 @@
 #li5{
   border-left: 19px solid #71059d;
   font-family: "fantasy";
+}
+
+.backli1{
+  background-color: #85db8a;
+}
+.backli2{
+  background-color: #c60230;
+}
+.backli3{
+  background-color: #094a1b;
+    padding: 6px;
+}
+.backli4{
+  background-color: #247393;
+  padding: 6px;
 }

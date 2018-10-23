@@ -20,6 +20,7 @@
             <li><a href="DIW/tema2/act5/actividad.html">Actividad 5</a></li>
             <li><a href="DIW/tema2/cajas.html">Cajas < div> </a></li>
             <li><a href="/DIW/tema2/acti6/index.html">Actividad 6</a></li>
+            <li><a href="/DIW/tema2/boton.html">Boton</a></li>
       	  </ul>
         </ul>
       </ul>
@@ -50,10 +51,18 @@
             <ul>
               <li><h4>TEMA 2</h4></li>
               <ul>
-                <li><a href="/LM/tema2/actividad1.html">Actividad 1</a></li>
-                <li><a href="/LM/tema2/formulario1.html">Formulario 1</a></li>
-                <li><a href="/LM/tema2/formulario2.html">Formulario 2</a></li>
-                <li><a href="/LM/tema2/formulario3.html">Formulario 3</a></li>
+                <li><a href="/LM/tema2/t1/actividad1.html">Actividad 1</a></li>
+                <li><a href="/LM/tema2/t2/formulario1.html">Formulario 1</a></li>
+                <li><a href="/LM/tema2/t2/formulario2.html">Formulario 2</a></li>
+                <li><a href="/LM/tema2//t2/formulario3.html">Formulario 3</a></li>
+                <li>T3</li>
+                <ul>
+                  <li><a href="/LM/tema2/t3/ejer1.html">Ejercicio 1</a></li>
+                  <li><a href="/LM/tema2/t3/ejer2.html">Ejercicio 2</a></li>
+                  <li><a href="/LM/tema2/t3/ejer3.html">Ejercicio 3</a></li>
+                  <li><a href="/LM/tema2/t3/ejer4.html">Ejercicio 4</a></li>
+                  <li><a href="/LM/tema2/t3/ejer5.html">Ejercicio 5</a></li>
+                </ul>
               </ul>
             </ul>
           </ul>
