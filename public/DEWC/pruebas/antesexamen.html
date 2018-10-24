@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practica examen</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+    
+    var mensaje = prompt("Introduce un texto");
+    mensaje = mensaje.toLowerCase(mensaje);
+    mensaje = mensaje.replace(/ /g, "");
+    mensaje = mensaje.replace(/,/g, "");
+    mensaje = mensaje.replace(/á/g, "a");
+    mensaje = mensaje.replace(/é/g, "e");
+    mensaje = mensaje.replace(/í/g, "i");
+    mensaje = mensaje.replace(/ó/g, "o");
+    mensaje = mensaje.replace(/ú/g, "u");
+
+    mensaje = mensaje.split("");
+    mensajeRevertido = mensaje;
+    mensaje = mensaje.join(mensaje);
+    mensajeRevertido = mensajeRevertido.reverse(mensajeRevertido);
+    mensajeRevertido = mensajeRevertido.join(mensajeRevertido);
+
+    if(mensaje == mensajeRevertido){
+      alert('el texto es un palíndomo');
+    }else{
+      alert('El texto no es un palíndromo');
+    }
+
+
+    alert(mensaje + " " + mensajeRevertido);
+
+    </script>
+
+  </body>
+</html>

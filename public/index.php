@@ -41,6 +41,7 @@
               <li><a href="/DEWC/tema2/ejercicio6.html">Actividad 8</a></li>
               <li><a href="/DEWC/tema2/array.html">Array reverse</a></li>
               <li><a href="/DEWC/tema2/ut02/index.html">UT02</a></li>
+              <li><a href="/DEWC/pruebas/antesexamen.html">Practicas examen</a></li>
             </ul>
           </ul>
         </ul>
