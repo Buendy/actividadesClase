@@ -57,6 +57,7 @@
           <li>
             <h2>LM</h2>
             <ul>
+              <li><a href="/LM/ejemLayout/index.html">Ejemplo Layout</a></li>
               <li><h4>TEMA 2</h4></li>
               <ul>
                 <li><a href="/LM/tema2/t1/actividad1.html">Actividad 1</a></li>
