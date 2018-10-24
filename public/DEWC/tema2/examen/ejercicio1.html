@@ -6,8 +6,63 @@
   </head>
   <body>
     <script type="text/javascript">
+    var arrayPaises = ["Alemania", "Austria", "Bélgica", "Bulgaria", "Chipre", "Croacia", "Dinamarca", "Eslovaquia", "Eslovenia", "España", "Estonia", "Finlandia",
+      "Francia", "Grecia", "Hungría", "Irlanda", "Italia", "Letonia", "Lituania", "Luxemburgo", "Malta", "Países Bajos",
+      "Polonia", "Portugal", "Reino Unido", "República Checa", "Rumanía", "Suecia"];
+    var paisesEuro = ["Alemania", "Austria", "Bélgica","Chipre","Eslovaquia","Eslovenia","España","Estonia","Finlandia","Francia","Grecia","Irlanda",
+      "Italia", "Letonia", "Lituania", "Luxemburgo", "Malta", "Países Bajos" , "Portugal"];
+
+    do {
+      var pais = prompt('Introduce un pais:');
+    } while (!paises(arrayPaises, pais));
+
+
+    if(paises(paisesEuro, pais) == true){
+      alert('El pais introducido tiene el euro como moneda: ' + pais);
+    }else{
+      if(pais == 'Dinamarca'){
+        alert('La moneda de Dinamarca es la corona danesa');
+      }else if(pais == 'Reino Unido'){
+        alert('La moneda de Reino Unido es la libra esterlina');
+      }else if(pais == 'Bulgaria'){
+        alert('La moneda de Bulgaria es el lev búlgaro');
+      }else if(pais == 'Croacia'){
+        alert('La moneda de Croacia es la kuna');
+      }else if(pais == 'Chequia'){
+        alert('La moneda de Chequia es la corona checa');
+      }else if(pais == 'Hungría'){
+        alert('La moneda de Hungría es el furinto');
+      }else if(pais == 'Bulgaria'){
+        alert('La moneda de Bulgaria es el lev búlgaro');
+      }else if(pais == 'Polonia'){
+        alert('La moneda de Polona es el sloti');
+      }else if(pais == 'Rumanía'){
+        alert('La moneda de Rumanía es el leu');
+      }else if(pais == 'Suecia'){
+        alert('La moneda de Suecia es la corona');
+      }
+    }
+
+
+
+
+    function paises(array, pais){
+          for (var i = 0; i < array.length; i++) {
+            if(array[i] == pais){
+              return true;
+            }
+          }
+          return false;
+    }
+
+
+
+
+
+
 
     </script>
+
 
   </body>
 </html>

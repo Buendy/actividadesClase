@@ -6,6 +6,29 @@
   </head>
   <body>
     <script type="text/javascript">
+      /*ESTE ESTA RECIEN EMPEZADO... :(*/
+      var cadenaText = prompt('Introdice el primer octeto');
+
+
+      while (!calculaLongitud(cadenaText)) {
+        var cadenaText = prompt('Vuelve a introducir el primer octeto');
+
+      }
+
+      alert(cadenaText);
+
+
+      function comprobaciones(cadena){
+        if(cadena.length == 8){
+          return true;
+        }else {
+          return false;
+        }
+      }
+
+
+
+
 
     </script>
 

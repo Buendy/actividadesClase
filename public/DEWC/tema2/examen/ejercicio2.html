@@ -7,6 +7,36 @@
   <body>
     <script type="text/javascript">
 
+    arrayLetras = ["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F","G","H","I","J","K","L","M","N", "O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+    arrayHexa   = ["30","31","32","33","34","35","36","37","38","39","41","42","43","44","45","46","47","48","49","4A","4B","4C","4D","4E","4F","50","51","52","53","54","55","56","57","58","59","5A"];
+
+    var cadena = prompt('Introduce un texto');
+    cadena = formateaTexto(cadena);
+    cadena = transformaCaracter(arrayLetras, arrayHexa, cadena);
+    alert(cadena);
+
+
+    function transformaCaracter(array1, array2, texto){
+    var resultado = "";
+
+    for (var i = 0; i < texto.length; i++) {
+      for (var j = 0; j < array1.length; j++) {
+        if(texto[i] == array1[j]){
+          resultado += array2[j] + ':';
+        }
+      }
+    }
+    
+    return resultado;
+    }
+
+    function formateaTexto(texto){
+      texto = texto.toUpperCase(texto);
+      texto = texto.replace(/Ñ/,"");
+      return texto;
+    }
+
+
     </script>
 
   </body>
