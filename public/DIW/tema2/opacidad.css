@@ -1,0 +1,36 @@
+.div1{
+  margin: 100px;
+  width: 400px;
+  height: 120px;
+  background: pink;
+  overflow: visible;
+
+}
+
+.div2{
+    margin: 100px;
+    width: 120px;
+    height: 120px;
+    background: pink;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 10px #000000, inset -2px -2px 10px #000000;
+    border: solid 2px gray;
+
+}
+
+.div3{
+    margin: 100px;
+    width: 120px;
+    height: 120px;
+    background: pink;
+    overflow: auto;
+
+
+}
+
+.div4{
+  width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-all;
+}

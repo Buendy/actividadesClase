@@ -21,6 +21,8 @@
             <li><a href="DIW/tema2/cajas.html">Cajas < div> </a></li>
             <li><a href="/DIW/tema2/acti6/index.html">Actividad 6</a></li>
             <li><a href="/DIW/tema2/boton.html">Boton</a></li>
+            <li><a href="/DIW/tema2/opacidad.html">Opacidad</a></li>
+            <li><a href="/DIW/tema2/acti7/actividad7.html">Actividad 7</a></li>
       	  </ul>
         </ul>
       </ul>
