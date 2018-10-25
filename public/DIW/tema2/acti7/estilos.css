@@ -69,6 +69,14 @@ body{
   color: #FFF;
 }
 
-a:visited{
+#enlace1:visited{
+  color: #CCC;
+}
+
+#enlace2:visited{
+  color: #CCC;
+}
+
+#enlace3:visited{
   color: #CCC;
 }
