@@ -74,6 +74,12 @@
                   <li><a href="/LM/tema2/t3/ejer4.html">Ejercicio 4</a></li>
                   <li><a href="/LM/tema2/t3/ejer5.html">Ejercicio 5</a></li>
                 </ul>
+                <li>T4</li>
+                <ul>
+                  <li><a href="/LM/tema2/t4/ejer1.html">Ejercicio 1</a></li>
+                  <li><a href="/LM/tema2/t4/ejer2.html">Ejercicio 2</a></li>
+                  <li><a href="/LM/tema2/t4/ejer3.html">Ejercicio 23</a></li>
+                </ul>
               </ul>
             </ul>
           </ul>
