@@ -2,17 +2,42 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Ejercicio 3</title>
+    <style media="screen">
+    body{
+      font-family: "Arial";
+    }
+      td{
+        border: 2px solid black;
+        text-align: center;
+        padding: 8px;
+      }
+      table{
+        border-collapse: collapse;
+        float: left;
+        margin-right: 20px;
+        width: 200px;
+      }
+    </style>
   </head>
   <body>
     <h1 style="text-align: center;">Casos prácticos</h1>
     <table>
       <caption>Ingresos</caption>
     <tr><td colspan=2>2012</td></tr>
-    <tr><td>Enero</td></tr>
+    <tr><td colspan=2>Enero</td></tr>
     <tr><td>100€</td><td>50€</td></tr>
+    <tr><td>Febrero</td><td>75€</td></tr>
 
 
+    </table>
+
+    <table>
+      <caption>Ingresos</caption>
+      <tr><td colspan="3">2012</td></tr>
+      <tr><td rowspan="2">Enero</td><td>1</td><td>100€</td> </tr>
+      <tr><td>2</td><td>50€</td></tr>
+      <tr><td colspan="2">Febrero</td><td>75€</td> </tr>
     </table>
 
   </body>
