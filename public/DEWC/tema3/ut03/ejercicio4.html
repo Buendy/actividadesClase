@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 4</title>
+    <script type="text/javascript">
+
+      function mostrar()
+      {
+
+        var cuadro = document.getElementById("texto");
+        var cuadro2 = document.getElementById("especifique");
+
+        cuadro.style.visibility = "visible";
+        cuadro2.style.visibility = "visible";
+      }
+
+    </script>
+
+  </head>
+  <body>
+
+    <p>Seleccione un curso</p>
+    <input type="radio" id="curso1" name="curso" value="HTML">HTML<br>
+    <input type="radio" id="curso2" name="curso" value="CSS">CSS<br>
+    <input type="radio" id="curso3" name="curso" value="Otro" onclick="mostrar()">Otro<br>
+
+    <label id="especifique" style="visibility: hidden;">Especifique:</label> <input type="text" id="texto" style="visibility: hidden;">
+  </body>
+</html>

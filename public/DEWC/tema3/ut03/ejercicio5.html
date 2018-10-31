@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 5</title>
+
+    <style media="screen">
+    body{
+      font-family: "Sans";
+    }
+      p{
+        margin-bottom: 3px;
+        margin-top: 3px;
+
+      }
+    </style>
+    <script type="text/javascript">
+
+    function cambia(numero)
+    {
+      var parrafo = document.getElementById("p"+numero);
+
+      if(numero == 1){
+        document.getElementById('div').style.fontSize = 20+"px";
+      }else if(numero == 2){
+        document.getElementById('div').style.fontSize = "";
+      }else if(numero == 3){
+        document.getElementById('div').style.backgroundColor = "red";
+      }else if(numero == 4){
+        document.getElementById('div').style.backgroundColor = "";
+      }else if(numero == 5){
+        document.getElementById('div').style.fontFamily = "Serif";
+      }
+    }
+
+    </script>
+  </head>
+  <body>
+
+    <h3>Nueva Sección:</h3>
+  <div id="div">
+    <a href="#"><p id="p1" onclick="cambia(1)">Aumenta el tamaño de la fuente solo de esta sección</p></a>
+    <a href="#"><p id="p2" onclick="cambia(2)">Tamaño normal</p></a>
+    <a href="#"><p id="p3" onclick="cambia(3)">cambia el color del fondo de esta sección</p></a>
+    <a href="#"><p id="p4" onclick="cambia(4)">Color normal</p></a>
+    <a href="#"><p id="p5" onmouseover="cambia(5)">Cambia el tipo de fuente empleada en esta sección al situar el ratón encima de este vínculo</p></a>
+  </div>
+
+
+  </body>
+</html>

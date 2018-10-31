@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 1</title>
+
+    <script type="text/javascript">
+
+      function mostrar(num)
+      {
+        var contenido = document.getElementById("enlace" + num);
+        document.getElementById("eltexto").value = contenido;
+      }
+
+    </script>
+  </head>
+  <body>
+
+    <ul>
+      <li><a href="http://www.adobe.com" id="enlace1" onmouseover="mostrar(1);">Adobe</a></li>
+      <li><a href="http://www.apple.com" id="enlace2" onmouseover="mostrar(2);">Apple</a></li>
+      <li><a href="http://www.ibm.com" id="enlace3" onmouseover="mostrar(3);">IBM</a></li>
+  </ul>
+  <input type="text" size="30" id="eltexto"/>
+
+  </body>
+</html>

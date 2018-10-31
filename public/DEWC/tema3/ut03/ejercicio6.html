@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var ventana;
+      function muestraDatosNavigator(){
+        var datos = window.navigator.language + "\n" + window.navigator.userAgent + "\n" + window.navigator.appVersion;
+        alert(datos);
+      }
+      function guardarDatosSesion(){
+      sessionStorage.setItem('keyPrincipal', prompt( 'Introduce los datos a guardar'));
+      }
+      function muestraDatosSesion(){
+      alert(sessionStorage.getItem('keyPrincipal'));
+
+      }
+      function guardarDatosNavegador(){
+        localStorage.setItem('datosNavegador', window.navigator.language + "\n" + window.navigator.userAgent + "\n" + window.navigator.appVersion);
+      }
+      function muestraDatosNavegador(){
+        alert(localStorage.getItem('datosNavegador'));
+      }
+      function abreVentana(){
+        ventana = window.open("","","width=200, height=200");
+
+      }
+      function moverVentanaEsquina(){
+        ventana.moveTo(0,0);
+        ventana.focus();
+      }
+      function moverVentanaDerecha(){
+        ventana.moveBy(50,0);
+        ventana.focus();
+      }
+      function moverVentanaAbajo(){
+        ventana.moveBy(0,50);
+        ventana.focus();
+      }
+      function moverVentanaIzquierda(){
+        ventana.moveBy(-50,0);
+        ventana.focus();
+      }
+      function moverVentanaArriba(){
+        ventana.moveBy(0,-50);
+        ventana.focus();
+
+      }
+      function aumentaTamanoVentana(){
+        ventana.resizeBy(50,50);
+        ventana.focus();
+      }
+      function reduceTamanoVentana(){
+        ventana.resizeBy(-50,-50);
+        ventana.focus();
+      }
+      function tamanoOriginalVentana(){
+        ventana.resizeTo(200,200);
+        ventana.focus();
+      }
+    </script>
+    <button type="button" onclick="muestraDatosNavigator()">Muestra datos navegador</button>
+    <button type="button" onclick="guardarDatosSesion()">Guardar datos sesion</button>
+    <button type="button" onclick="guardarDatosNavegador()">Guardar datos navegador</button>
+    <button type="button" onclick="muestraDatosSesion()">Mostrar datos sesion</button>
+    <button type="button" onclick="muestraDatosNavegador()">Mostrar datos navegador</button>
+    <button type="button" onclick="abreVentana()">Abre Ventana</button>
+    <button type="button" onclick="moverVentanaEsquina()">Mueve Ventana</button>
+    <button type="button" onclick="moverVentanaDerecha()">Mueve Ventana Derecha</button>
+    <button type="button" onclick="moverVentanaIzquierda()">Mueve Ventana Izquierda</button>
+    <button type="button" onclick="moverVentanaArriba()">Mueve Ventana Arriba</button>
+    <button type="button" onclick="moverVentanaAbajo()">Mueve Ventana Abajo</button>
+    <button type="button" onclick="aumentaTamanoVentana()">Aumenta tamaño ventana</button>
+    <button type="button" onclick="reduceTamanoVentana()">Reduce tamaño ventana</button>
+    <button type="button" onclick="tamanoOriginalVentana()">Reinicia tamaño ventana</button>
+  </body>
+</html>
