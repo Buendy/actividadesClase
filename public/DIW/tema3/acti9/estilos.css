@@ -1,0 +1,89 @@
+body{
+  font-family: Arial;
+}
+
+#h1{
+  text-align: center;
+  overflow: hidden;
+}
+
+#p1{
+  background-color: #b89d6a;
+  border: 2px solid #67583a;
+  width: 60%;
+  height: 6%;
+  text-align: center;
+  position: absolute;
+  left: 15%;
+  overflow: hidden;
+
+}
+
+#p2{
+  text-align: left;
+  background-color: #d5d45f;
+  border: 2px solid #a3a249;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  overflow: hidden;
+}
+
+#p3{
+  text-align: right;
+  background-color: #66dbd8;
+  border: 2px solid #57b1af;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 54%;
+  top: 20%;
+  z-index: 2;
+  overflow: hidden;
+
+}
+
+#p4{
+  text-align: center;
+  background-color: #9ce38e;
+  border: 2px solid #7fbe72;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  z-index: 1;
+  overflow: hidden;
+
+}
+
+#p5{
+  background-color: #e3b8e8;
+  border: 2px solid #ba96be;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 8%;
+  top: 43%;
+  overflow: hidden;
+
+}
+
+#p6{
+  text-align: right;
+  background-color: #fb9e9e;
+  border: 2px solid #af6f6f;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 54%;
+  top: 43%;
+  overflow: hidden;
+}
+
+#p5:hover, #p6:hover, #p2:hover{
+  z-index: 2;
+
+}

@@ -1,0 +1,25 @@
+#primer{
+  font-weight: bold;
+}
+
+.parrafos{
+  display: inline;
+  background-color: yellow;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+
+}
+
+#segundo2{
+  margin-left: 3px;
+}
+
+#tercero1, #tercero2{
+  display: inline-block;
+}
+
+#cuarto1, #cuarto2{
+  display: block;
+}
