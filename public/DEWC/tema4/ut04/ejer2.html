@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 2</title>
+
+    <script type="text/javascript">
+    window.addEventListener("load", inicio, false);
+    function inicio()
+    {
+      var botones = ['button1', 'button2', 'button3'];
+      var funciones = [bubbling, capturing, eventBubbling];
+      for(i in botones){
+        document.getElementById(botones[i]).addEventListener('click',funciones[i]);
+      }
+
+  ç
+
+    }
+
+    function bubbling(){
+
+    }
+    function capturing(){
+
+    }
+    function eventBubbling(){
+
+    }
+
+
+
+
+
+    </script>
+  </head>
+  <body>
+
+    <p>
+      <button type="button" name="button1" id="button1">Boton 1</button>
+      <button type="button" name="button2" id="button2">Boton 2</button>
+      <button type="button" name="button3" id="button3">Boton 3</button>
+    </p>
+
+  </body>
+</html>
