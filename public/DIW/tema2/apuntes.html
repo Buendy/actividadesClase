@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Apuntes de examen</title>
+    <link rel="stylesheet" href="apuntes.css">
+  </head>
+  <body>
+
+    <div id="izquierda1">
+      <h4 class="h4izquierda">DIW</h4>
+      <p>Temario</p>
+      <ul>
+        <li>Examen - Tema 1</li>
+      </ul>
+    </div>
+
+
+    <div id="izquierda2">
+      <h4 class="h4izquierda">DEWC</h4>
+      <p>Temario</p>
+      <ul>
+        <li>Examen - Tema 1</li>
+      </ul>
+    </div>
+
+
+
+
+    <div class="all">
+
+    <h1>Apuntes para examen</h1>
+
+    <div class="individual">
+    <h4>Donde aplicar estilos</h4>
+
+    <ul>
+      <li>Hoja externa</li>
+      <ul>
+        <li>Se indica mediante la siguiente etiqueta:</li>
+      </ul>
+      <pre>
+    <code>&ltlink rel="stylesheet" href="hojadeestilos.css"&gt</code>
+      </pre>
+      <li>Estilo interno</li>
+      <ul>
+        <li>Se indica de la siguiente manera:</li>
+      </ul>
+      <pre>
+        <code>
+    &ltstyle&gt
+      h1 {
+        olor: orange;
+      }
+    &lt/style&gt
+        </code>
+      </pre>
+      <li>Estilo en linea</li>
+      <ul>
+        <li>Se aplica de la siguiente manera:</li>
+      </ul>
+      <pre>
+        <code>
+    &lth1 style="color:blue;margin‐left:30px;"&gtThis is a heading&lt/h1&gt
+        </code>
+      </pre>
+    </ul>
+    </div>
+
+
+    <div class="individual">
+      <h4>Como aplicar colores</h4>
+      <ul>
+      <pre>
+        <code>
+        rgb(255, 99, 71)
+        #ff6347
+        hsl(9, 100%, 64%)
+        rgba(255, 99, 71, 0.5)
+        hsla(9, 100%, 64%, 0.5)
+        </code>
+      </pre>
+      </ul>
+    </div>
+
+
+
+    <div class="individual">
+      <h4>Propiedades para texto</h4>
+      <ul>
+        <pre>
+          <code>
+             color: red;                      text-transform: uppercase;    text-shadow: 3px 2px red;
+             text-align: center;              text-transform: lowercase;    font-family: "Times New Roman", Times, serif;
+             text-align: left;                text-transform: capitalize;   font-style: normal;
+             text-align: right;               text-indent: 50px;            font-style: italic;
+             text-align: justify;             letter-spacing: -3px;         font-size: 40px;
+             text-decoration: none;           line-height: 0.8;             font-size: 2.5em; /* 40px/16=2.5em */
+             text-decoration: overline;       direction: rtl;               font-size: 100%;
+             text-decoration: line-through;   word-spacing: 10px;           font-weight: bold;
+             text-decoration: underline;      word-spacing: -5px;           font-weight: normal;
+             font-variant: normal;
+             font-variant: small-caps;
+
+          </code>
+        </pre>
+      </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Iconos</h4>
+      <ul>
+        <pre>
+          <code>
+             &ltlink rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt
+             &lti class="glyphicon glyphicon-cloud"&gt&lt/i&gt
+          </code>
+        </pre>
+      </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Propiedades para enlaces</h4>
+      <ul>
+        <pre>
+          <code>
+            a:link {           a:visited {            a:hover {             a:active {
+              color: red;         color: green;          color: hotpink;      color: blue;
+            }                  }                      }                     }
+          </code>
+        </pre>
+      </ul>
+
+      <ul>
+        <li>Ejemplo</li>
+
+      <pre>
+        <code>
+          a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+          }
+        </code>
+      </pre>
+        </ul>
+    </div>
+
+
+    <div class="individual">
+      <h4>Propiedades para fondos</h4>
+      <ul>
+        <pre>
+          <code>
+            background-color: lightblue;
+            background-image: url("paper.gif");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: right top;
+            background: #ffffff url("img_tree.png") no-repeat right top;
+          </code>
+        </pre>
+      </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Bordes</h4>
+      <ul>
+        <li>Tipos de bordes</li>
+        <pre>
+          <code>
+            dotted      dashed      solid
+            double      groove      ridge
+            inset       outset      none
+            hidden
+          </code>
+        </pre>
+        <li>Propiedades para bordes</li>
+
+      <pre>
+        <code>
+          border-style: solid;                      border-top-style: dotted;
+          border-width: 5px;                        border-right-style: solid;
+          border-width: medium;                     border-bottom-style: dotted;
+          border-width: 2px 10px 4px 20px;          border-left-style: solid;
+          border-color: red green blue yellow;      border-style: dotted solid;
+          border: 5px solid red;                    border-radius: 5px;
+          border-bottom-color                       border-top-color
+        </code>
+      </pre>
+      </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Propiedades para cajas</h4>
+        <ul>
+          <pre>
+            <code>
+              width: 300px;
+              border: 25px solid green;
+              padding: 25px;
+              margin: 25px;
+            </code>
+          </pre>
+        </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Propiedades para Margenes</h4>
+      <ul>
+        <pre>
+          <code>
+            margin-top
+            margin-right
+            margin-bottom
+            margin-left
+            margin: 100px 150px 100px 80px;
+            margin: auto;
+          </code>
+        </pre>
+      </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Propiedades para Padding</h4>
+      <ul>
+        <pre>
+          <code>
+            padding-top
+            padding-right
+            padding-bottom
+            padding-left
+            padding: 50px 30px 50px 80px;
+
+          </code>
+        </pre>
+      </ul>
+    </div>
+
+    <div class="individual">
+      <h4>Propiedades para listas</h4>
+      <ul>
+      <pre>
+
+        <code>
+          list-style-type: circle;                      list-style-position: outside;
+          list-style-type: square;                      list-style-position: inside;
+          ol.d {                                        list-style: square inside url("sqpurple.gif");
+            list-style-type: lower-alpha;
+          }
+
+          ul {
+            list-style-image: url('sqpurple.gif');
+          }
+
+        </code>
+      </pre>
+      </ul>
+    </div>
+
+
+    <div class="individual">
+      <h4>Varios efectos</h4>
+      <ul>
+        <li>Opacidad</li>
+
+      <pre>
+        <code>
+          opacity:0.6;
+        </code>
+      </pre>
+        <li>Varios fondos</li>
+        <pre>
+          <code>
+            #example1
+            {
+              background-image: url(img_flwr.gif), url(paper.gif);
+              background-position: right bottom, left top;
+              background-repeat: no-repeat, repeat;
+            }
+          </code>
+        </pre>
+
+        <li>Efectos de sombra</li>
+
+          <pre>
+            <code>
+              text-shadow                                                               box-shadow: 10px 10px;
+              box-shadow                                                                box-shadow: 10px 10px grey;
+              text-shadow: 2px 2px;                                                     box-shadow: 10px 10px 5px grey;
+              text-shadow: 2px 2px red;
+              text-shadow: 2px 2px 5px red;
+              text-shadow: 0 0 3px #FF0000;
+              text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+              text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+              text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+              #boxshadow
+              {
+                position: relative;
+                box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+                padding: 10px;
+                background: white;
+              }
+
+            </code>
+          </pre>
+
+
+        <li>Tarjetas</li>
+        <pre>
+          <code>
+            div.card
+            {
+              width: 250px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,
+              0, 0, 0.19);
+              text-align: center;
+            }
+          </code>
+        </pre>
+        <li>Desbordamiento</li>
+        <pre>
+          <code>
+            text-overflow
+            word-wrap
+            word-break
+            overflow: hidden;
+            text-overflow: clip;
+            text-overflow: ellipsis;
+            overflow: visible;
+            word-wrap: break-word;
+            word-break: keep-all;
+            word-break: break-all;
+          </code>
+        </pre>
+
+
+      </ul>
+    </div>
+
+    </div>
+
+
+
+
+  </body>
+</html>
+
+<link rel="stylesheet" href="hojadeestilos.css">
