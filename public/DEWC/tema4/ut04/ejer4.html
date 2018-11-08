@@ -7,7 +7,17 @@
 
     <script type="text/javascript">
 
+    window.addEventListener('click', masJugadores, false);
 
+    function masJugadores(e)
+    {
+      var equipos = document.getElementById('jugadores');
+      var equipo = document.createElement('option');
+      equipo.value = 'hola';
+      equipo = document.createTextNode('prueba');
+      alert(equipo.value);
+      alert(equipo.text);
+    }
 
 
 
@@ -15,7 +25,7 @@
         'Stefan Savic','Diego Godín','Santiago Arias','Filipe Luís','Juanfran','Saúl Níguez',
         'Koke','Rodri','Thomas','Antoine Griezmann','Thomas Lemar','Diego Costa','Gelson Martins',
         'Ángel Correa','Vitolo','Nikola Kalinic'];
-        
+
       var RM = ['Thibaut Courtois','Keylor Navas','Kiko Casilla','Raphaël Varane','Marcelo',
         'Daniel Carvajal','Sergio Ramos','Nacho Fernández','Álvaro Odriozola','Jesús Vallejo',
         'Sergio Reguilón','Isco','Toni Kroos','Casemiro','Luka Modric','Dani Ceballos','Marcos Llorente','Federico Valverde',
@@ -32,10 +42,13 @@
 
     <form class="" action="index.html" method="post">
 
-      <select class="" name="">
+      <select class="" name="equipos" id="equipos">
         <option value="RealMadrid">Real Madrid</option>
         <option value="AtléticoMadrid">Atlético de Madrid</option>
         <option value="Valencia">Valencia F.C.</option>
+      </select>
+      <select class="" name="jugadores" id="jugadores">
+
       </select>
 
 
