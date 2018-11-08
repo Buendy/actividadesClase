@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejemplo</title>
+    <script type="text/javascript">
+
+      function pulsarBoton(e){
+        var elemento = e.target;
+        var texto = document.getElementById("texto1");
+        if(elemento.id == "btn1"){
+          texto.value= "Se ha pulsado el boton 1";
+        }else if(elemento.id == "btn2"){
+          texto.value = "Se ha pulsado el boton 2 ";
+        }
+
+        if(e.currentTarget.id == "parrafo"){
+          console.log('parrafo ha capturado el click');
+        }
+      }
+
+      function asocioEventos(){
+      document.getElementById('btn1').addEventListener('click', pulsarBoton(e));
+      document.getElementById('btn2').addEventListener('click', pulsarBoton(e));
+      }
+
+      document.addEventListener('DOMContentLoaded', asocioEventos);
+
+    </script>
+  </head>
+  <body>
+
+
+
+
+
+    <p id="parrafo">
+      <input type="button" id="btn1" name="" value="boton1">
+      <input type="button" id="btn2" name="" value="boton1">
+      <input type="text" id="texto1" value="">
+    </p>
+  </body>
+</html>
