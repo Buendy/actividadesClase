@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+
+body{
+  background-image: url('./emagen.png'), url('./fondo.jpg');
+
+  background-position: bottom left, center;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+
+}
+
+#div1{
+  width: 320px;
+  height: 200px;
+  border: 10px green solid;
+  box-shadow: 2px 2px 2px black, inset 0 0 25px black, 0 0 5px black;
+  font-family: "Arial";
+  text-align: left;
+}
+
+#div2{
+  width: 300px;
+  height: 400px;
+  opacity: 0.6;
+  box-shadow: -20px 20px 20px black;
+  font-family: "Sans";
+  text-align: right;
+}
+
+#div3{
+  width: 500px;
+  height: 600px;
+  opacity: 0.6;
+  box-shadow: 0px 0px 20px grey;
+  font-family: "Monospace";
+  color: rgba(10, 10, 10, 0.5);
+  text-align: center;
+
+}
+
+.divs:hover{
+  opacity: 0.2 !important;
+}
+
+#div1:hover{
+  box-shadow: 2px 2px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+#div2:hover{
+  box-shadow: -20px 20px 0px black;
+}
+
+#div3:hover{
+  box-shadow: 0px 0px 20px black;
+}
+
+
+#lista1{
+  list-style-type: none;
+  padding: 5px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.listas{
+  margin-top: 3px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: #f0e192;
+}
+
+#divlista{
+  width: 120px;
+  background-color: #e9d778;
+  padding: 5px;
+
+}
+
+#cuartodiv{
+background-image: url('./fondo2.jpg');
+padding: 5px;
+padding-top: 20px;
+padding-bottom: 60px;
+width: 600px;
+}
+
+#divcuarto{
+  border: white 10px groove;
+  background-image: url('fondos.jpg');
+}
+#cabecera{
+   font-family: "Pacifico";
+   text-align: center;
+  text-shadow: 2px 2px 5px #19ec34, -2px -2px 5px #eb9a24;
+
+}
+
+
+#quintodiv{
+  background-color: #f1bc63;
+  width: 900px;
+  padding-left: 30px;
+  padding-bottom: 1px;
+  font-family: "Arial";
+
+}
+
+
+#cabeceraquinto{
+  text-align: center;
+  color: #b3b0b0;
+  text-shadow:3px 3px 10px white, 0px 0px 10px white, -3px -3px 10px white;
+
+
+}
+
+#pquinto{
+  border: 2px dashed #b38c4b;
+  background-color: #dead5c;
+  font-variant: capitalize;
+  width: 800px;
+  height: 100px;
+  margin-top: 1px;
+
+
+}
+
+#letrau{
+  font-size: 25px;
+  color: #b38c4b;
+  font-weight: bold;
+}
+
+
+#amor{
+  background-color: #b38c4b;
+  width: 300px;
+  padding-left: 5px;
+  margin-left: 100px;
+  margin-bottom: -7px;
+  z-index: 1;
+}
+
+.botones{
+  text-align: center;
+    color: black;
+    border-radius: 200px;
+    border: 10px solid white;
+    background-color: white;
+    text-decoration: none;
+}
+
+#btn1:hover{
+  background-color: rgba(255, 99, 71, 0.5);
+  border: 10px solid rgba(255, 99, 71, 0.5);
+}
+#btn2:visited{
+  color: black;
+  background-color: grey;
+  border: 10px solid grey;
+}
+
+#btn2:hover{
+  background-color: hsla(125, 86%, 23%, 0.3);
+  border: 10px solid hsla(125, 86%, 23%, 0.3);
+}
+
+
+
+#btn3:hover{
+  background-color: #0b80d0;
+  border: 10px solid #0b80d0;
+}
+
+#btn1:active{
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  border: 10px solid black;
+}

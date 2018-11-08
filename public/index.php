@@ -24,6 +24,7 @@
             <li><a href="/DIW/tema2/opacidad.html">Opacidad</a></li>
             <li><a href="/DIW/tema2/acti7/actividad7.html">Actividad 7</a></li>
             <li><a href="/DIW/tema2/apuntes.html">Apuntes EXAMEN</a></li>
+            <li><a href="/DIW/tema2/examen/index.html">EXAMEN</a></li>
       	  </ul>
 
         </ul>
