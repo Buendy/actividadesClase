@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Ejercicio 2</title>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
 
-    <script type="text/javascript">
-    window.addEventListener("load", inicio, false);
-    function inicio()
-    {
-      var botones = ['button1', 'button2', 'button3'];
-      var funciones = [bubbling, capturing, eventBubbling];
-      for(i in botones){
-        document.getElementById(botones[i]).addEventListener('click',funciones[i]);
-      }
-
-  ç
-
-    }
-
-    function bubbling(){
-
-    }
-    function capturing(){
-
-    }
-    function eventBubbling(){
-
-    }
+    <script>
 
 
+        function doSomething(e) {
+
+            console.log(e.currentTarget.id);
+            if ((e.target.id == 'Boton2' ) && (e.currentTarget.id == "Tercero"))
+                e.stopPropagation();
+
+        }
+
+        function asociar() {
+
+            document.getElementById("Boton1").addEventListener('click',doSomething);
+            document.getElementById("Boton2").addEventListener('click',doSomething);
+            document.getElementById("body").addEventListener('click',doSomething);
+            document.getElementById("Segundo").addEventListener('click',doSomething);
+            document.getElementById("Tercero").addEventListener('click',doSomething);
+            document.getElementById("Cuarto").addEventListener('click',doSomething);
+            document.getElementById("Quinto").addEventListener('click',doSomething);
+
+        }
 
 
+        document.addEventListener('DOMContentLoaded', asociar)
 
     </script>
-  </head>
-  <body>
+</head id="head">
+<body id="body">
 
-    <p>
-      <button type="button" name="button1" id="button1">Boton 1</button>
-      <button type="button" name="button2" id="button2">Boton 2</button>
-      <button type="button" name="button3" id="button3">Boton 3</button>
-    </p>
+<div id="Segundo">
 
-  </body>
-</html>
+    <div id="Tercero">
+
+        <p id="parrafo">
+
+        <div id="Cuarto">
+            <button id="Boton1">Boton1</button>
+        </div>
+
+        <div id="Quinto">
+            <button id="Boton2">Boton2</button>
+        </div>
+
+        </p>
+    </div>
+</div>

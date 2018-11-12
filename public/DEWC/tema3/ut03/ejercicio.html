@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+
+    <head>
+    <style type="text/css">
+    .oculto { display: none; }
+    .visible { display: inline; }
+    </style>
+    <script type="text/javascript">
+      function muestra(){
+        var enlace = document.getElementById('adicional');
+        if(enlace.className == 'visible'){
+          enlace.className = 'oculto';
+        }else{
+          enlace.className = 'visible';
+        }
+      }
+
+      function anade(){
+        var list = document.getElementsByTagName('li');
+        var listas = document.getElementById('lista');
+        var listaNueva = document.createElement('li');
+        var num = list.length + 1;
+        var contenido = document.createTextNode('Apartado' + num +')');
+        listaNueva.appendChild(contenido);
+        lista.appendChild(listaNueva);
+      }
+
+
+    </script>
+    <meta charset="utf-8">
+    <title></title>
+    </head>
+
+    <body>
+    <p id="texto">texto1 <span id="adicional" class="oculto">texto2.</span></p>
+    <a id="enlace" href="#" onclick="muestra(); return
+    false;">Seguir leyendo</a>
+
+
+    <ul id="lista">
+      <li>Apartado 1)</li>
+      <li>Apartado 2)</li>
+      <li>Apartado 3)</li>
+      <li>Apartado 4)</li>
+      <li>Apartado 5)</li>
+    </ul>
+      <input type="button" value="Añadir elemento" onclick="anade();">
+    </body>
+</html>

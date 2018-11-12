@@ -71,6 +71,7 @@
             <li><h4>TEMA 4</h4></li>
             <ul>
                 <li><a href="/DEWC/tema4/ut04/index.html">UT04</a></li>
+                <li><a href="/DEWC/tema4/ejercicios/index.html">Ejercicios sueltos</a></li>
             </ul>
 
           </ul>

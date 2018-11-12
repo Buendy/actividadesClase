@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ejercicio 1</title>
+
+    <script type="text/javascript">
+        window.addEventListener('load', inicio, false);
+        let cantidad = 0;
+
+      function inicio(){
+          document.getElementById('areatext').addEventListener('keypress', infotext, false);
+      }
+
+      function infotext(eve){
+
+        var cuadro = document.getElementById('teclas');
+
+        cuadro.value = cantidad;
+        console.log(eve.which);
+
+        if(eve.which == 8){
+          cantidad--;
+        }else{
+          cantidad++;
+        }
+      }
+
+
+    </script>
+  </head>
+  <body>
+
+
+    <form class="" action="index.html" method="post">
+      <p id="prueb">Introduce un texto:</p>
+      <textarea rows="4" cols="50" id="areatext"></textarea><br>
+      <input type="text" name="" value="" id="teclas">
+    </form>
+  </body>
+</html>

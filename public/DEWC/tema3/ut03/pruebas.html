@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PRUEBAS</title>
+
+    <script type="text/javascript">
+      window.addEventListener('DOMContentLoaded', verAnchoAlto);
+
+
+      function verAnchoAlto(){
+        var variable = confirm('hola');
+        alert(variable);
+      }
+
+      function verEstiloparrafo(){
+        var parrafo = document.getElementById("pa1");
+        alert(parrafo.style.fontWeight);
+      }
+
+      function mostrarEnlace(){
+        var enlace = document.getElementById('enlace');
+        alert(enlace.href);
+      }
+
+      function eliminarNodos(){
+        var parrafos = document.getElementsByTagName('p');
+        for (var i = 0; i < parrafos.length; i++) {
+          document.body.removeChild(parrafos[i]);
+        }
+
+        document.body.removeChild(parrafos[0]);
+      }
+
+      function eliminarNodo(){
+        var parrafo = document.getElementById('pa7');
+        document.body.removeChild(parrafo);
+      }
+
+      function crearNuevoNodo2(){
+
+        var parrafoPadre = document.getElementById('pa1');
+        var parrafo = document.createElement('p');
+        var contenido = document.createTextNode("Parrafo creado de prueba");
+        parrafo.appendChild(contenido);
+        parrafoPadre.appendChild(parrafo);
+
+      }
+
+      function  clickPa1(){
+        var parrafoPadre = document.getElementById('pa1');
+        parrafoPadre.addEventListener('click', crearNuevoNodo2, false);
+      }
+
+      function crearNuevoNodo(){
+
+        var parrafo = document.createElement('p');
+        var contenido = document.createTextNode("Parrafo creado de prueba");
+        parrafo.appendChild(contenido);
+        window.document.body.appendChild(parrafo);
+
+      }
+
+
+      function imprimirParrafoId(){
+        var parrafo = document.getElementById('pa1');
+        alert(parrafo.id);
+      }
+
+
+      function imprimirParrafo(){
+        var parrafo = document.getElementsByName('p1');
+        alert(parrafo[0].innerHTML);
+      }
+
+      function imprimirArray(){
+      var parrafos = document.getElementsByTagName("p");
+
+      for (var i = 0; i < parrafos.length; i++) {
+          alert(parrafos[i].innerHTML);
+        }
+      }
+
+    </script>
+  </head>
+  <body>
+
+    <p name="p1" id="pa1" style="font-weight: bold;">Este es el parrafo numero 1</p>
+    <p id="pa2">Este es el parrafo numero 2</p>
+    <p id="pa3">Este es el parrafo numero 3</p>
+    <p id="pa4">Este es el parrafo numero 4</p>
+    <p id="pa5">Este es el parrafo numero 5</p>
+    <p id="pa6">Este es el parrafo numero 6</p>
+    <p id="pa7">Este es el parrafo numero 7 <a href="https://www.google.es" id="enlace">Enlace a google</a></p>
+
+
+  </body>
+</html>

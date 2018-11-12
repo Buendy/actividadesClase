@@ -6,17 +6,35 @@
 
 
     <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', inicio, false);
 
-    window.addEventListener('click', masJugadores, false);
+    function inicio(){
+      var equipos = document.getElementById('equipos').addEventListener("change", masJugadores);
+    }
 
-    function masJugadores(e)
+    
+
+    function masJugadores()
     {
-      var equipos = document.getElementById('jugadores');
-      var equipo = document.createElement('option');
-      equipo.value = 'hola';
-      equipo = document.createTextNode('prueba');
-      alert(equipos.name);
-      alert(equipo.value);
+      var jugadores = document.getElementById('jugadores');
+      var equipos = document.getElementsByTagName('option');
+      if(document.getElementById('equipos').value == 'Valencia'){
+        jugadores.length = VFC.length;
+        for (var i = 0; i < VFC.length; i++) {
+          jugadores.options[i].text = VFC[i];
+        }
+      }else if(document.getElementById('equipos').value == 'AtléticoMadrid'){
+        jugadores.length = ATM.length;
+          for (var i = 0; i < ATM.length; i++) {
+            jugadores.options[i].text = ATM[i];
+        }
+      }else if(document.getElementById('equipos').value == 'RealMadrid'){
+        jugadores.length = RM.length;
+        for (var i = 0; i < RM.length; i++) {
+          jugadores.options[i].text = RM[i];
+          }
+      }
+
     }
 
 
@@ -48,8 +66,9 @@
         <option value="Valencia">Valencia F.C.</option>
       </select>
       <select class="" name="jugadores" id="jugadores">
-
       </select>
+
+
 
 
     </form>
