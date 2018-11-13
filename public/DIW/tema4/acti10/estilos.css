@@ -1,0 +1,109 @@
+body{
+  font-family: Arial;
+}
+
+#h1{
+  text-align: center;
+  overflow: hidden;
+}
+
+#p1{
+  background-color: #b89d6a;
+  border: 2px solid #67583a;
+  width: 60%;
+  height: 6%;
+  text-align: center;
+  position: absolute;
+  left: 15%;
+  overflow: hidden;
+  transition: 1s;
+}
+
+#p1:hover{
+  transform: rotate(-180deg);
+}
+
+#p2{
+  text-align: left;
+  background-color: #d5d45f;
+  border: 2px solid #a3a249;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 8%;
+  top: 20%;
+  overflow: hidden;
+  transition: 2s;
+}
+
+#p2:hover{
+  transform: translate(-100px, 20px);
+
+}
+
+#p3{
+  text-align: right;
+  background-color: #66dbd8;
+  border: 2px solid #57b1af;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 54%;
+  top: 20%;
+  z-index: 2;
+  overflow: hidden;
+  transition: 3s;
+}
+#p3:hover{
+  transform: skewX(30deg);
+}
+
+#p4{
+  text-align: center;
+  background-color: #9ce38e;
+  border: 2px solid #7fbe72;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  z-index: 1;
+  overflow: hidden;
+  transition: 4s;
+}
+#p4:hover{
+  transform: scale(2,2);
+}
+
+#p5{
+  background-color: #e3b8e8;
+  border: 2px solid #ba96be;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 8%;
+  top: 43%;
+  overflow: hidden;
+  transition: 5s;
+}
+
+#p5:hover{
+  transform: rotate(-180deg) translate(-100px, 20px) skewX(30deg) skewX(30deg) scale(2,2);
+}
+
+#p6{
+  text-align: right;
+  background-color: #fb9e9e;
+  border: 2px solid #af6f6f;
+  width: 33%;
+  height: 18%;
+  position: absolute;
+  left: 54%;
+  top: 43%;
+  overflow: hidden;
+}
+
+#p5:hover, #p6:hover, #p2:hover{
+  z-index: 2;
+
+}
