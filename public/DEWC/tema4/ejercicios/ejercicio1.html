@@ -5,26 +5,45 @@
     <title>Ejercicio 1</title>
 
     <script type="text/javascript">
-        window.addEventListener('load', inicio, false);
-        let cantidad = 0;
+        //window.addEventListener('load', inicio, false);
 
-      function inicio(){
-          document.getElementById('areatext').addEventListener('keypress', infotext, false);
-      }
 
-      function infotext(eve){
+      // function inicio(){
+      //     document.getElementById('areatext').addEventListener('keypress', infotext, false);
+      //     document.getElementById('areatext').addEventListener('keyup', info, false);
+      // }
 
-        var cuadro = document.getElementById('teclas');
+      function infos(evento){
+        var retorno;
+        var teclas;
+        restante = 200;
+        cuadro = document.getElementById('teclas');
+        valor = document.getElementById('areatext')
+        restante = restante-valor.value.length;
 
-        cuadro.value = cantidad;
-        console.log(eve.which);
-
-        if(eve.which == 8){
-          cantidad--;
-        }else{
-          cantidad++;
+        cuadro.value = 'Caracteres escritos: ' + valor.value.length + ' - Caracteres restantes: ' + restante;
+        console.log(evento.which);
+        console.log(evento.keyCode);
+        if(restante <= 0){
+          retorno =  false;
+            if(evento.which == 8 || evento.keyCode ==  46){
+              restante++;
+              retorno = true;
+            }
         }
+        return retorno;
       }
+
+
+
+      // function infotext(eve){
+      //
+      //   var cuadro = document.getElementById('teclas');
+      //
+      //   console.log(eve.which);
+      //
+      //
+      // }
 
 
     </script>
@@ -34,8 +53,8 @@
 
     <form class="" action="index.html" method="post">
       <p id="prueb">Introduce un texto:</p>
-      <textarea rows="4" cols="50" id="areatext"></textarea><br>
-      <input type="text" name="" value="" id="teclas">
+      <textarea rows="4" cols="50" id="areatext" onkeypress="return infos(event)"></textarea><br>
+      <input type="text"  name="" value="" id="teclas" size="50">
     </form>
   </body>
 </html>
