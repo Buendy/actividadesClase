@@ -1,0 +1,25 @@
+
+
+.div1 {
+background:linear-gradient(red,blue);}
+.div2 {
+background: linear-gradient(to right, red,blue);}
+.div3 {
+background: linear-gradient(to bottom right, red,blue);}
+.div4 {
+background: linear-gradient(to bottom right, red,green, teal, orange,blue);}
+.div5{
+background: linear-gradient(to bottom right, rgba(255,0,0,0),blue);}
+.div6{
+  background-image: repeating-linear-gradient(blue, red 10%, green 20%);
+  }
+.div7{
+  background-image: radial-gradient(blue, red 10%, green 25%);
+  }
+.div8{
+background-image: radial-gradient(farthest-corner at 65% 65%, blue, yellow)
+}
+
+.div9{
+background-image: repeating-radial-gradient(blue, yellow 10%, red 15%);
+}

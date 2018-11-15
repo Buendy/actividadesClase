@@ -56,6 +56,8 @@ function insertar(evento){
     break;
     case '+':
     texto.value += "    + \n";
+    
+    texto.value = '';
     break;
     case 'x':
     texto.value += "    x \n";
