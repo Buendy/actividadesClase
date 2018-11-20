@@ -1,25 +1,38 @@
+/*-----------------------------------------------EJERCICIO 1----------------------------------------------*/
+body{
+  background: linear-gradient(90deg,#a00ce0, #33f5bb);
+}
 
-
+.divs{
+  width: 100px;
+  height: 100px;
+}
 .div1 {
-background:linear-gradient(red,blue);}
+background:linear-gradient(blue,grey);
+
+}
 .div2 {
-background: linear-gradient(to right, red,blue);}
+background: linear-gradient(to left, red,blue);
+}
 .div3 {
-background: linear-gradient(to bottom right, red,blue);}
+background: linear-gradient(to bottom left, red,blue);
+}
 .div4 {
-background: linear-gradient(to bottom right, red,green, teal, orange,blue);}
+background: linear-gradient(to bottom right, #821b6f,#81eea5, #482db8, #2d5f94,#71fa11,#ac1a1a);
+}
 .div5{
-background: linear-gradient(to bottom right, rgba(255,0,0,0),blue);}
+background: linear-gradient(to bottom right, rgb(255, 252, 0, 0.8),rgb(72, 142, 67, 0.8));
+}
 .div6{
-  background-image: repeating-linear-gradient(blue, red 10%, green 20%);
+  background-image: repeating-linear-gradient(blue, red 35%, green 20%);
   }
 .div7{
-  background-image: radial-gradient(blue, red 10%, green 25%);
+  background-image: radial-gradient(blue, red 90%, green 25%);
   }
 .div8{
-background-image: radial-gradient(farthest-corner at 65% 65%, blue, yellow)
+background-image: radial-gradient(farthest-corner at 20% 65%, blue, yellow)
 }
 
 .div9{
-background-image: repeating-radial-gradient(blue, yellow 10%, red 15%);
+background-image: repeating-radial-gradient(blue, yellow 80%, red 80%);
 }

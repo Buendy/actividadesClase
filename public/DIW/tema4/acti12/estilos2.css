@@ -1,0 +1,47 @@
+/*-----------------------------------------------EJERCICIO 2----------------------------------------------*/
+body{
+  background-color: #ff73f1;
+}
+
+
+
+.div1{
+  background-color: white;
+  padding-top: 10px;
+
+}
+.div2{
+  background-color: #96c764;
+  box-shadow: 7px 7px 10px black;
+}
+.div3{
+  float: left;
+  width: 10%;
+  background-image:linear-gradient(yellow,#ff73f1);
+}
+.div4{
+  float: left;
+  width: 80%;
+  background-color: white;
+  box-shadow: 3px 3px 15px black;
+  min-height: 500px;
+  z-index: 1;
+
+}
+.div5{
+  float: right;
+  width: 10%;
+  box-shadow: 3px 3px 15px black;
+  background-image:linear-gradient(#7cabc9,#ff73f1);
+  z-index: 2;
+}
+
+.pars{
+
+  margin-left: 8%;
+  width: 85%;
+}
+
+.parss{
+  margin-top: 8%;
+}
