@@ -45,6 +45,8 @@
             <li><a href="/DIW/tema4/gradientes.html">GRADIENTES</a></li>
             <li><a href="/DIW/tema4/gradientes2.html">GRADIENTES 2</a></li>
             <li><a href="/DIW/tema4/acti13/index.html">Actividad 13</a></li>
+            <li><a href="/DIW/tema4/tablas.html">TABLAS</a></li>
+            <li><a href="/DIW/tema4/acti14/ejercicio1.html">Actividad 14</a></li>
       	  </ul>
 
         </ul>

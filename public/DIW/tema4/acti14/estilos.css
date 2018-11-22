@@ -1,0 +1,53 @@
+caption{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+table{
+    border: 2px solid black;
+    width: 900px;
+}
+tr{
+    background-color: whitesmoke;
+
+}
+
+td{
+    border: 2px solid black;
+    padding: 5px;
+    border-color: #0fa43e;
+}
+th{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: left;
+    border-color: #0fa43e;
+    background-color: yellow;
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color: #0c5460;
+    color: white;
+}
+
+th:hover, td:hover{
+    background-color: black;
+    border-color: yellow;
+    color: white;
+}
+
+table:hover{
+    caption-side: bottom;
+}
+
+.ancho{
+    width: 200px;
+}
+.div{
+    overflow-x: scroll;
+}
+#gradiente{
+    background: repeating-linear-gradient(to bottom right, dodgerblue 30% , blue 90%, dodgerblue 30% );
+}

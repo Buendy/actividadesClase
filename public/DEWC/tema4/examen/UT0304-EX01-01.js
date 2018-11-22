@@ -8,7 +8,7 @@ function pulsaBoton(e){
       if(document.getElementById('parrafo02')){
         alert('El segundo párrafo ya existe');
       }else{
-        var parrafo = document.createElement('p');
+        let parrafo = document.createElement('p');
         var contenido = document.createTextNode("Nuestros antepasados lo llamaron magia, tú lo llamas ciencia. Vengo de una tierra en la que ambas son lo mismo");
         parrafo.appendChild(contenido);
         document.body.appendChild(parrafo);
