@@ -42,6 +42,9 @@
       			<li><a href="/DIW/tema4/acti10/index.html">Actividad 10</a></li>
             <li><a href="/DIW/tema4/acti11/index.html">Actividad 11</a></li>
             <li><a href="/DIW/tema4/acti12/index.html">Actividad 12</a></li>
+            <li><a href="/DIW/tema4/gradientes.html">GRADIENTES</a></li>
+            <li><a href="/DIW/tema4/gradientes2.html">GRADIENTES 2</a></li>
+            <li><a href="/DIW/tema4/acti13/index.html">Actividad 13</a></li>
       	  </ul>
 
         </ul>

@@ -1,0 +1,42 @@
+.div1{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid green;
+  animation-name: ejercicio1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-direction: alternate;
+}
+
+@keyframes ejercicio1 {
+  0%  {left: 0px;}
+  100% {
+    left: 100px;
+    background-color: yellow;
+    border: 2px solid blue;
+  }
+
+}
+
+.div2{
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 2px solid red;
+  animation-name: ejercicio2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+
+
+@keyframes ejercicio2{
+  0%  {left: 0px;}
+  25% {left: 100px; top: 0px; background-color: yellow;width: 10px;}
+  50% {top: 100px; left: 100px; width: 200px; height: 200px; border-radius: 50px; transform: rotate(-180deg);}
+  75% {left: 0px; top: 100px; background-color: green; transform: skewX(30deg) skewX(30deg);}
+  100% {top: 0px; left: 0px; background-color: lightblue;}
+}
