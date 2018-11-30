@@ -47,6 +47,9 @@
             <li><a href="/DIW/tema4/acti13/index.html">Actividad 13</a></li>
             <li><a href="/DIW/tema4/tablas.html">TABLAS</a></li>
             <li><a href="/DIW/tema4/acti14/ejercicio1.html">Actividad 14</a></li>
+            <li><a href="/DIW/tema4/acti15/ejercicio1.html">Actividad 15</a></li>
+            <li><a href="/DIW/tema4/acti16/ejercicio1.html">Actividad 16</a></li>
+             <li><a href="/DIW/tema4/examen/ejercicio1.html">Examen</a></li>
       	  </ul>
 
         </ul>
@@ -88,6 +91,11 @@
                 <li><a href="/DEWC/tema4/ut04/index.html">UT04</a></li>
                 <li><a href="/DEWC/tema4/ut04-2/index.html">UT04-2</a></li>
                 <li><a href="/DEWC/tema4/ejercicios/index.html">Ejercicios sueltos</a></li>
+            </ul>
+            <li><h4>TEMA 5</h4></li>
+            <ul>
+                <li><a href="/DEWC/tema5/desplegable.html">desplegable</a></li>
+                <li><a href="/DEWC/tema5/ut5-01/ut05-tc01.html">UT5-01</a></li>
             </ul>
 
           </ul>

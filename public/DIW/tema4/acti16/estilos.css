@@ -1,0 +1,65 @@
+div{
+  border: 1px solid grey;
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.link:link{
+  background-color: #eb774a;
+  color: white;
+}
+
+.link:hover{
+  background-color:#20800a;
+}
+
+.link:visited{
+  color: #021e44;
+}
+
+.link:active{
+  background-color:#e6ec0d;
+}
+
+a.highlight:hover{
+  background-color: #b5e077;
+}
+
+.primeroshijos p:first-child{
+  background-color: #55dfe3;
+  border: 1px solid #55dfe3;
+  border-radius: 5px;
+  width: 50%;
+}
+
+input.formfocus:focus{
+    background-color: grey;
+}
+
+.primeralinea::first-line{
+  background-color: #d742f0;
+}
+
+.primeraletra::first-letter{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.general::after{
+  content: url('./css.png');
+
+}
+
+.general::before{
+  content: url('./css.png');
+}
+
+body {
+    counter-reset: section;
+}
+
+div::before {
+    counter-increment: section;
+    content: "Sección " counter(section) ": ";
+}

@@ -1,0 +1,56 @@
+div {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+p:first-child{
+  background-color: #7a947f;
+}
+
+a.highlight:hover{
+  color: red;
+}
+
+.descendiente p{
+  background-color: #2b2f98;
+}
+
+.hijo > p{
+  background-color: #9731de;
+}
+
+.adyacente+p{
+  color: #43ee8d;
+  font-family: "Arial";
+  border-bottom: 2px solid #43ee8d;
+  width: 50%;
+
+}
+
+.hermano ~ p{
+  background-color: #599ded;
+  width: 50%;
+}
+
+.primeralinea::first-line{
+  background-color: #1f05e3;
+}
+
+.primeraletra::first-letter{
+  background-color: #bb2929;
+}
+
+.antes::before{
+  content: url(https://librosweb.es/ejercicios/css/comun/imagenes/dolar.png);
+}
+
+.despues::after{
+  content: url(https://librosweb.es/ejercicios/css/comun/imagenes/dolar.png);
+}
+
+.selector::selection{
+  background-color: black;
+  color: white;
+}

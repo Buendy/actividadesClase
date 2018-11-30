@@ -1,0 +1,23 @@
+body{
+  font-family: "Arial";
+}
+#panelAux, #panelAux2, #panelAux3, #panel, #panel2, #panel3, #sub1, #sub2{
+  display: none;
+}
+
+
+.ancho{
+  width: 200px;
+  background-color: #F6CFCE;
+  border: 1px solid #F6CFCE;
+  padding: 5px;
+  text-align: center;
+}
+
+.menu2{
+  width: 200px;
+}
+
+.floating{
+  float: left;
+}
