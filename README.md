@@ -62,7 +62,7 @@
   ```
 
   #### Propiedad de posición
-  ------------
+  
 Con **position** especificamos el tipo de posicionamiento utilizado en un elemento.
 - **static**: Los elementos se posicionan estáticamente. (por defecto tienen esta posición y no se ven afectados por las propiedades superior, inferior, izquierda, y derecha).
 - **relative**: Se coloca en relación con su posición normal (las propiedades superior, inferior, izquierda, y derecha se pueden ajustar).
