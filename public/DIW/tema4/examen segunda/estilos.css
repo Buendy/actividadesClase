@@ -1,0 +1,262 @@
+.header{
+    background: linear-gradient(green,white);
+    width: 100%;
+    height: 70px;
+}
+.left{
+    background: linear-gradient(green,white);
+}
+
+.left{
+    float: left;
+    width: 14%;
+}
+
+.left2{
+    background: linear-gradient(blue,white);
+    color: white;
+    float: left;
+    width: 15.5%;
+    height: 900px;
+}
+
+.desplegable{
+    display: none;
+    background-color: white;
+    width: 280px;
+    height: 120px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+
+}
+#lorem{
+    background-color: white;
+    width: 280px;
+    height: 70px;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    text-align: center;
+    box-shadow: 10px 10px 10px black
+}
+
+#lorem2{
+    background-color: white;
+    width: 280px;
+    height: 70px;
+    position: absolute;
+    left: 20%;
+    top: 2%;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+#lorem:hover .desplegable{
+    display: block;
+}
+
+#lorem2:hover .desplegable{
+    display: block;
+}
+
+
+.desplegable  a{
+    background-color: white;
+    padding: 10px;
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: -1px;
+    margin-left: 20px;
+}
+
+.desplegable  a:hover{
+   background-color: black;
+    color: white;
+}
+.tabla{
+    width: 14%;
+}
+.tabla table{
+    background-color: blue;
+}
+.tabla tr:nth-child(odd){
+    background: radial-gradient(lightblue 20%, black 99%);
+    color: black;
+}
+.tabla td:hover{
+    background-color: black;
+    color: white;
+}
+.tabla th{
+    background-color: orange;
+    color: black;
+    padding: 6px;
+    text-align: left;
+}
+
+
+.tabla td {
+    padding: 6px;}
+
+.tabla caption{
+    caption-side: bottom;
+}
+
+#total{
+    background: linear-gradient(to bottom right, white,lightblue, lightblue, blue);
+}
+
+
+.center{
+    width: 70.5%;
+    float: left;
+    background: linear-gradient(pink, white);
+}
+.desc{
+    background: linear-gradient(to bottom right, grey 50%, black 60%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid green;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    width: 560px;
+    margin-left: 8px;
+}
+
+.gallery img{
+    border: 2px solid green;
+    margin-left: 8px;
+
+
+}
+
+.desc:hover{
+    animation-name: gallerys;
+    animation-duration: 1s;
+    border: none;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gallerys {
+    50% {transform: scale(1.5,1.5)}
+    100% {transform: scale(1.5,1.5)}
+}
+
+.gallery img:hover{
+    animation-name: gallerys2;
+    animation-duration: 1s;
+    border: none;
+    box-shadow: 12px 12px 12px black;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gallerys2 {
+    50% {transform: scale(1.1,1.1) skewX(-15deg);}
+    100% {transform: scale(1.1,1.1) skewX(-15deg);}
+}
+.fixed {
+    position: fixed;
+    left: 70%;
+    top: 30%;
+    width: 120px;
+    overflow: hidden;
+    box-shadow: -40px -40px 60px black;
+}
+
+.fixed img{
+    border: 2px solid green;
+}
+.fixed img:hover{
+    animation-name: gallerys2;
+    animation-duration: 1s;
+    border: none;
+    box-shadow: 12px 12px 12px black;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+.desc b{
+    display: inline;
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+    padding: 7px;
+}
+.desc b:hover{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 7px;
+}
+
+.fixed .desc{
+    width: 75px;
+}
+
+
+.anim p{
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    position: relative;
+    border:2px solid white;
+    border-radius: 10px;
+    animation-name: rebote;
+    animation-duration: 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    box-shadow: 10px 10px 5px black;
+}
+
+@keyframes rebote {
+    0%{top:0px;left:0px;}
+    11%{top:50px;left:50px; transform: rotate(100deg) scale(2,2)}
+    22%{top:100px;left:100px;background-color: indianred; transform: rotate(200deg)}
+    33%{top:200px;left:0px;background-color: green; transform: rotate(300deg)}
+    44%{top:100px;left:100px;background-color: cornflowerblue; transform: rotate(400deg)}
+    55%{top:200px;left:200px;background-color: cornflowerblue; transform: rotate(500deg)}
+    66%{top:100px;left:100px;background-color: cornflowerblue; transform: rotate(600deg)}
+    77%{top:0px;left:200px;background-color: yellow; transform: rotate(700deg)}
+    88%{top:100px;left:100px;background-color: grey; transform: rotate(800deg)}
+    100%{top:0px;left:0px;background-color: indianred; transform: rotate(900deg) scale(2,2)}
+}
+.left li{
+    padding: 7px;
+    list-style: none;
+    background-color: grey;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px black;
+    width: 60px;
+    margin-bottom: 15px;
+
+}
+
+#submenu{
+
+    background-color: white;
+    margin-top: -20px;
+}
+
+.texto{
+    display: none;
+    background-color: white;
+}
+
+.secAcordeon{
+    background-color: #0180ff;
+    font-size: 15px;
+
+}
+
+.secAcordeon:hover .texto {
+    display: block;
+    color:black;
+}
+
+

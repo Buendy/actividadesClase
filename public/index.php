@@ -96,6 +96,7 @@
             <ul>
                 <li><a href="/DEWC/tema5/desplegable.html">desplegable</a></li>
                 <li><a href="/DEWC/tema5/ut5-01/ut05-tc01.html">UT5-01</a></li>
+                <li><a href="/DEWC/tema5/ut5-02/ejercicio.html">UT5-02</a></li>
             </ul>
 
           </ul>
