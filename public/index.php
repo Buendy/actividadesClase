@@ -56,6 +56,7 @@
                    <li><a href="/DIW/tema5/flexbox1.html">Flexbox 1</a></li>
                    <li><a href="/DIW/tema5/interactivas.html">Imagenes interactivas</a></li>
                    <li><a href="/DIW/tema5/final/index.html">Practica final</a></li>
+                   <li><a href="/DIW/tema5/continuo.html">Practica mundo</a></li>
 
       	       </ul>
 
