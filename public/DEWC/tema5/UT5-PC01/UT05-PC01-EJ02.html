@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="UT05-PC01-EJ02.js"></script>
+    <style media="screen">
+      .oculta{
+        visibility: hidden;
+      }
+      .visible{
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="" action="#" method="post">
+      NOMBRE: <input type="text" id="nombre" value="" required="true"><br>
+      APELLIDOS: <input type="text" id="apellidos" value="" required="true"><br>
+      DNI: <input type="text" id="dni" value="" required="true"><br>
+      MURCIANO: <input type="checkbox" id="murciano" value=""><br>
+      <select id="poblaciones" class="oculta">
+      </select><br>
+      HOMBRE: <input type="radio" name="sexo" value="hombre" checked="true">
+      MUJER: <input type="radio" name="sexo" value="mujer"><br>
+      <input type="submit" id="post" value="ALMACENAR">
+      <input type="submit" id="get" value="CONSULTAR">
+    </form>
+  </body>
+</html>

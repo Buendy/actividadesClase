@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="ajax.js"></script>
+    <style media="screen">
+      .oculta{
+        visibility: hidden;
+      }
+      .visible{
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <h1>AÑADIR CAGETORIA</h1>
+      NOMBRE: <input type="text" id="categoria" name="categoria" value="">
+      PRINCIPAL: <input type="radio" name="tipo" value="princiapal" checked="true">
+      SECUNDARIA: <input type="radio" name="tipo" value="secundaria">
+      <select id="princiapales" name="princiapales" class="oculta" >
+      </select>
+	    <input type="submit" id="crear" value="CREAR">
+    </form>
+  </body>
+</html>

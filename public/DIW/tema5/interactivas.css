@@ -1,0 +1,46 @@
+#div1, #div2, #div3{
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px;
+    position: absolute;
+    display: none;
+}
+
+body:hover #div1, body:hover #div2, body:hover #div3{
+    display: block;
+}
+
+#div1:hover #text1, #div2:hover #text2, #div3:hover #text3{
+    display: block;
+}
+
+#text1, #text2, #text3{
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 110%;
+    padding: 5px;
+    display: none;
+}
+
+#div1{
+    top: 150px;
+    left: 90px;
+    width: 100px;
+    height: 100px;
+
+}
+
+#div2{
+    top: 180px;
+    left: 250px;
+    width: 80px;
+    height: 100px;
+}
+
+#div3{
+    top: 150px;
+    left: 400px;
+    width: 130px;
+    height: 115px;
+
+}
+

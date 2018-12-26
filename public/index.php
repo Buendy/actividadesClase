@@ -49,8 +49,15 @@
             <li><a href="/DIW/tema4/acti14/ejercicio1.html">Actividad 14</a></li>
             <li><a href="/DIW/tema4/acti15/ejercicio1.html">Actividad 15</a></li>
             <li><a href="/DIW/tema4/acti16/ejercicio1.html">Actividad 16</a></li>
-             <li><a href="/DIW/tema4/examen/ejercicio1.html">Examen</a></li>
+            <li><a href="/DIW/tema4/examen/ejercicio1.html">Examen</a></li>
       	  </ul>
+      	       <li><h4>TEMA 5</h4></li>
+      	       <ul>
+                   <li><a href="/DIW/tema5/flexbox1.html">Flexbox 1</a></li>
+                   <li><a href="/DIW/tema5/interactivas.html">Imagenes interactivas</a></li>
+                   <li><a href="/DIW/tema5/final/index.html">Practica final</a></li>
+
+      	       </ul>
 
         </ul>
 
@@ -97,6 +104,14 @@
                 <li><a href="/DEWC/tema5/desplegable.html">desplegable</a></li>
                 <li><a href="/DEWC/tema5/ut5-01/ut05-tc01.html">UT5-01</a></li>
                 <li><a href="/DEWC/tema5/ut5-02/ejercicio.html">UT5-02</a></li>
+                <li><a href="/DEWC/tema5/ajax/formularioajax.html">Ejemplo AJAX</a></li>
+                <li><h5>UT5-PC01</h5></li>
+                <ul>
+                    <li><a href="/DEWC/tema5/UT5-PC01/UT05-PC01-EJ01.html">Ejercicio 1</a></li>
+                    <li><a href="/DEWC/tema5/UT5-PC01/UT05-PC01-EJ02.html">Ejercicio 2</a></li>
+                </ul>
+                <li><a href="/DEWC/tema5/examen/galeria.html">ex1</a></li>
+                <li><a href="/DEWC/tema5/examen/ajax.html">ex2</a></li>
             </ul>
 
           </ul>
