@@ -15,8 +15,7 @@ $(function(){
   });
 
   $(".paneles2").click(function(){
-    $("#sub2").animate({width: "toggle", display: "inline"
-    });
+    $("#sub2").animate({width: "toggle", display: "inline"});
   });
   $(".paneles1").click(function(){
     $("#sub1").animate({width: "toggle", display: "inline"
