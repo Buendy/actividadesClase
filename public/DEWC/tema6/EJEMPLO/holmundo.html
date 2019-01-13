@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="hmv">
+      {{ mensaje }}
+    </div>
+    <script src="vue.js">
+    </script>
+    <script>
+      const app = new Vue({
+        el:'#hmv',
+        data:{
+          mensaje: 'hola vuejs'
+        }
+      })
+    </script>
+  </body>
+</html>

@@ -97,7 +97,7 @@ $(function(){
                         apellidos : $('#apellidos').val(),
                         dni : $('#dni').val(),
                         murciano : $('#murciano').prop('checked'),
-                        poblacion : ($('#murciano').prop(('checked'))) ? $('#poblaciones').val() : 'No hay población seleccionada',
+                        poblacion : ($('#murciano').prop(('checked'))) ? $('#poblaciones').val() : 'No hay poblacion seleccionada',
                         sexo : ($('input[type=radio]').eq(0).prop('checked')) ? $('input[type=radio]').eq(0).val() : $('input[type=radio]').eq(1).val(),
                     },
                     success : function(data) {

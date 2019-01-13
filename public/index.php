@@ -51,7 +51,7 @@
             <li><a href="/DIW/tema4/acti16/ejercicio1.html">Actividad 16</a></li>
             <li><a href="/DIW/tema4/examen/ejercicio1.html">Examen</a></li>
       	  </ul>
-      	       <li><h4>TEMA 5</h4></li>
+            <li><h4>TEMA 5</h4></li>
       	       <ul>
                    <li><a href="/DIW/tema5/flexbox1.html">Flexbox 1</a></li>
                    <li><a href="/DIW/tema5/interactivas.html">Imagenes interactivas</a></li>
@@ -60,6 +60,7 @@
                    <li><a href="/DIW/tema5/grid.html">Ejemplos GRID</a></li>
 
       	       </ul>
+
 
         </ul>
 
@@ -115,6 +116,13 @@
                 <li><a href="/DEWC/tema5/examen/galeria.html">ex1</a></li>
                 <li><a href="/DEWC/tema5/examen/ajax.html">ex2</a></li>
             </ul>
+              <li><h4>TEMA 6</h4></li>
+              <ul>
+                  <li><a href="/DEWC/tema6/index.html">Vue.js</a></li>
+                  <li><a href="/DEWC/tema6/UT06-TC01/index.html">UT06-TC01</a></li>
+                  <li><a href="/DEWC/tema6/two/index.html">Two way binding</a></li>
+                  <li><a href="/DEWC/tema6/two/twowaybinding.html">Two way binding 2</a></li>
+              </ul>
 
           </ul>
         </ul>

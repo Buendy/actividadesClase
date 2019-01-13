@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE</title>
+    <script src="./vue.js"></script>
+    <style>
+        *{
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+
+<div id="hmv">
+    {{ mensaje }}
+
+    <ul>
+        <li v-for="(municipio, index) in municipios" :value="index">
+            nombre: {{ municipio.nombre}}<br>
+            poblacion: {{ municipio.poblacion}}
+        </li>
+    </ul>
+
+</div>
+<script>
+    const app = new Vue({
+        el:'#hmv',
+        data:{
+            mensaje: "Hola Vuejs",
+            municipios: [
+                {nombre:'Abanilla',poblacion:6158},
+                {nombre:'Abarán',poblacion:13089},
+                {nombre:'Águilas',poblacion:34758},
+                {nombre:'Albudeite',poblacion:1359},
+                {nombre:'Alcantarilla',poblacion:41331},
+                {nombre:'Los Alcázares',poblacion:15349},
+                {nombre:'Aledo',poblacion:945},
+                {nombre:'Alguazas',poblacion:9557},
+                {nombre:'Alhama de Murcia',poblacion:21448},
+                {nombre:'Archena',poblacion:18771},
+                {nombre:'Beniel',poblacion:11233},
+                {nombre:'Blanca',poblacion:6521},
+                {nombre:'Bullas',poblacion:11546},
+                {nombre:'Calasparra',poblacion:10214},
+                {nombre:'Campos del Río',poblacion:2022},
+                {nombre:'Caravaca de la Cruz',poblacion:25633},
+                {nombre:'Cartagena',poblacion:214177},
+                {nombre:'Cehegín',poblacion:15193},
+                {nombre:'Ceutí',poblacion:11472},
+                {nombre:'Cieza',poblacion:34987},
+                {nombre:'Fortuna',poblacion:10049},
+                {nombre:'Fuente Álamo de Murcia',poblacion:16180},
+                {nombre:'Jumilla',poblacion:25672},
+                {nombre:'Librilla',poblacion:5160},
+                {nombre:'Lorca',poblacion:92299},
+                {nombre:'Lorquí',poblacion:7039},
+                {nombre:'Mazarrón',poblacion:30996},
+                {nombre:'Molina de Segura',poblacion:70344},
+                {nombre:'Moratalla',poblacion:8048},
+                {nombre:'Mula',poblacion:16713},
+                {nombre:'Murcia',poblacion:443243},
+                {nombre:'Ojós',poblacion:494},
+                {nombre:'Pliego',poblacion:3873},
+                {nombre:'Puerto Lumbreras',poblacion:15020},
+                {nombre:'Ricote',poblacion:1315},
+                {nombre:'San Javier',poblacion:31695},
+                {nombre:'San Pedro del Pinatar',poblacion:24903},
+                {nombre:'Santomera',poblacion:16058},
+                {nombre:'Torre Pacheco',poblacion:35198},
+                {nombre:'Las Torres de Cotillas',poblacion:21420},
+                {nombre:'Totana',poblacion:31394},
+                {nombre:'Ulea',poblacion:891},
+                {nombre:'La Unión',poblacion:19764},
+                {nombre:'Villanueva del Río Segura',poblacion:2650},
+                {nombre:'Yecla',poblacion:34092}
+
+
+            ]
+        }
+    })
+</script>
+
+
+</body>
+</html>
