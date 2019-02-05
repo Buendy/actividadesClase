@@ -1,0 +1,83 @@
+.content{
+    display: grid;
+   grid-template-areas: "head head head"
+                        "left center right"
+                        "foot foot foot";
+    background-color: rgba(17,34,17,0.09);
+}
+
+.head{
+    background-color: yellow;
+    grid-area:head;
+}
+
+.head a{
+    color: #0e3cff;
+}
+
+
+.center{
+    grid-area:center;
+    display: grid;
+    grid-template-areas: "left center right";
+    padding: 10px;
+    grid-gap: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.center-left{
+    grid-area: left;
+    background-color: grey;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+
+}
+
+.center-left a{
+    display: block;
+    height: 60px;
+    width: 180px;
+    padding-top: 20px;
+    text-align: center;
+    color: blue;
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.center-center{
+    grid-area: center;
+    background-color: red;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.center-right{
+    grid-area: right;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    width: 180px;
+}
+
+.center-right h1{
+    margin-top: 2px;
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+.footer{
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    background-color: yellow;
+    grid-area: foot;
+}

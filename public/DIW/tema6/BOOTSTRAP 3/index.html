@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOOTSTRAP 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>Cabecera</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam amet architecto deleniti, dicta dolorem est inventore libero magni praesentium quae quibusdam, quidem quos, soluta vitae voluptas voluptatum?</p>
+    <div class="alert alert-light"><strong>Alerta!</strong> Esta página está en <strong>fase beta</strong>.</div>
+    <div class="alert alert-danger alert-dismissible">
+        <strong>ATENCION!</strong> Esta alerta se puede cerrar<a href="" class="close" data-dismiss="alert">X</a>
+
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Uno</button>
+        <button type="button" class="btn btn-primary">Dos</button>
+        <button type="button" class="btn btn-primary">Tres</button>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">Cuatro</button>
+        <button type="button" class="btn btn-primary">Cinco</button>
+        <button type="button" class="btn btn-primary">Seis</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Siete</button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="" class="dropdown-item">A</a></li>
+            <li><a href="" class="dropdown-item">B</a></li>
+        </ul>
+    </div>
+    <ul class="breadcrumb justify-content-center">
+        <li><a href="#"> Página 1</a> / </li>
+        <li><a href="#"> Página 2</a> / </li>
+        <li><a href="#"> Página 3</a> / </li>
+        <li><a href="#"> Página 4</a> / </li>
+        <li class="active"> Pagina 5 </li>
+    </ul>
+
+</div>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: -50px; margin-bottom: 10px">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#lista" aria-expanded="false" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bg-dark text-white" id="lista">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Central </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Secundaria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Terciaria</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col-md-2" style=" background-image: linear-gradient(white, lightskyblue);">
+
+        <h2>Lateral izquierdo</h2>
+        <div class="container">
+            <h2>Imagen</h2>
+            <p>Imagen que se adapta al tamaño disponible</p>
+            <div class="mx-auto d-block text-center">
+                <img src="./conejo-enano-caracteristicas.jpg" alt="Foto Conejo" class="img-fluid ">
+            </div>
+
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid architecto asperiores corporis, dolores enim eos facere illum maiores minima neque nulla praesentium quae quos repudiandae unde veniam vero voluptate.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cupiditate fuga id in ipsum officia velit! Assumenda aut commodi, cumque eum excepturi, fuga incidunt libero qui, reprehenderit similique voluptatem voluptatibus.
+        </p>
+        <h2>Enlaces</h2>
+        <p>Lorem ipsum dolor sir amet.</p>
+        <ul class="nav nav-pills btn-group-vertical">
+            <li class="nav-item btn-block">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item btn-block">
+                <a class="nav-link" href="#">Link <span class="badge badge-warning">N</span></a>
+
+            </li>
+            <li class="nav-item btn-block">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item btn-block">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="col-md-8 text-center">
+        <div class="container">
+            <ul class="pagination pagination-lg justify-content-center">
+                <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+            </ul>
+        </div>
+
+        <h1>CENTRAL</h1>
+        <div class="container">
+            <div class="container">
+                <ul class="list-group">
+                    <li class="list-group-item bg-primary">item 1</li>
+                    <li class="list-group-item bg-warning">item 2</li>
+                    <li class="list-group-item bg-info">item 3</li>
+                    <li class="list-group-item bg-danger">item 4</li>
+                    <li class="list-group-item bg-dark text-white">item 5</li>
+                    <li class="list-group-item disabled">item 6</li>
+                    <li class="list-group-item bg-secondary">item 7</li>
+                    <li class="list-group-item bg-success">item 8</li>
+                    <li class="list-group-item active">item 9</li>
+                    <li class="list-group-item warning text-danger">item 10</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Tabla con clases</h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, delectus dolorum eaque et harum ipsam magni modi nihil omnis quia quibusdam quod ratione tempora, tenetur voluptate! Obcaecati ratione repellat vero?</p>
+        <div class="container">
+            <table class="table table-borderless" >
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Default</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-primary">
+                    <td>Primary</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Succes</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Danger</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Info</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Warning</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-active">
+                    <td>Active</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+                <tr class="table-light">
+                    <td><strong>Light</strong></td>
+                    <td><strong>Defaultson</strong></td>
+                    <td><strong>joe@gmail.com</strong></td>
+                </tr>
+                <tr class="table-dark text-dark">
+                    <td>Dark</td>
+                    <td>Defaultson</td>
+                    <td>joe@gmail.com</td>
+                </tr>
+            </table>
+            <div class="container">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Panel o Card
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo del card</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#" class="btn btn-primary">Link</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Pie del card
+                    </div>
+                </div>
+            </div>
+            <h1>BARRA DE PROGRESO</h1>
+        </div>
+
+        <div class="progress text-light">
+            <div class="bg-success" role="progressbar" style="width:60%">Realizado</div>
+            <div class="bg-warning" role="progressbar" style="width:10%">Pendiente</div>
+            <div class="bg-danger" role="progressbar" style="width:20%">Imposible</div>
+        </div>
+
+    </div>
+
+
+    <div class="col-md-2">
+        <h2>Lateral derecho</h2>
+        <ul class="nav nav-pills btn-group-vertical">
+            <li class="nav-item btn-block">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item btn-block">
+                <a class="nav-link" href="#">Link</a>
+
+            </li>
+            <li class="nav-item btn-block">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item btn-block">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 text-center" style="background-color: yellow">
+        <strong>Footer</strong>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+

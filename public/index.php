@@ -58,8 +58,16 @@
                    <li><a href="/DIW/tema5/final/index.html">Practica final</a></li>
                    <li><a href="/DIW/tema5/continuo.html">Practica mundo</a></li>
                    <li><a href="/DIW/tema5/grid.html">Ejemplos GRID</a></li>
+                   <li><a href="/DIW/tema5/gridAreas.html">GRID AREA</a></li>
 
       	       </ul>
+            <li><h4>TEMA 6</h4></li>
+            <ul>
+                <li><a href="/DIW/tema6/BOOTSTRAP/index.html">BOOTSTRAP</a></li>
+                <li><a href="/DIW/tema6/BOOTSTRAP 2/index.html">BOOTSTRAP 2</a></li>
+                <li><a href="/DIW/tema6/BOOTSTRAP 3/index.html">BOOTSTRAP 3</a></li>
+
+            </ul>
 
 
         </ul>
@@ -122,6 +130,7 @@
                   <li><a href="/DEWC/tema6/UT06-TC01/index.html">UT06-TC01</a></li>
                   <li><a href="/DEWC/tema6/two/index.html">Two way binding</a></li>
                   <li><a href="/DEWC/tema6/two/twowaybinding.html">Two way binding 2</a></li>
+                  <li><a href="/DEWC/tema6/UT06-TC02/index.vue">UT06-TC0</a></li>
               </ul>
 
           </ul>

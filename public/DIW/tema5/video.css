@@ -1,0 +1,125 @@
+.cabecera, .lateral, .contenido, .lateral2, .pie{
+    color: white;
+    box-shadow: 10px 10px 5px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.content{
+    padding: 10px;
+
+
+}
+
+.cabecera{
+    background-color: orangered;
+
+}
+
+.lateral{
+    background-color: grey;
+}
+
+.contenido{
+    background-color: lightgreen;
+
+}
+
+.lateral2{
+    background-color: #00a9ff;
+
+}
+
+.pie{
+    background-color: orangered;
+}
+
+.vid{
+    text-align:center;
+}
+
+@media only screen and (max-width: 600px){
+    .vid{
+        display: grid;
+        grid-template-areas: "video btns";
+    }
+
+    .video1{
+        grid-area: video;
+    }
+    .botones{
+        grid-area: btns;
+    }
+}
+
+@media only screen and (max-width: 500px){
+.contenido{
+    height: 200px;
+
+    overflow-y: scroll;
+}
+
+}
+
+@media only screen and (min-width: 500px){
+
+    .content{
+        width: 90%;
+        display: grid;
+        grid-template-areas: "head head"
+        "left right"
+        "left2 left2"
+        "foot foot";
+    }
+
+    .cabecera{
+        grid-area: head;
+    }
+    .lateral{
+        grid-area: left;
+    }
+    .contenido{
+        grid-area: right;
+
+
+    }
+
+    .lateral2{
+        grid-area: left2;
+    }
+
+    .pie{
+        grid-area: foot;
+    }
+
+}
+
+@media only screen and (min-width: 800px){
+
+    .content{
+        width: 90%;
+        display: grid;
+        grid-template-areas: "head head head"
+        "left center right"
+        "foot foot foot";
+    }
+
+    .cabecera{
+        grid-area: head;
+    }
+    .lateral{
+        grid-area: left;
+    }
+    .contenido{
+        grid-area: center;
+    }
+
+    .lateral2{
+        grid-area: right;
+    }
+
+    .pie{
+        grid-area: foot;
+    }
+}
