@@ -1,7 +1,9 @@
-var tipoIva = ['General','Reducido','Superreducido'];
-var iva = [0.21,0.1,0.04];
-var regex = new RegExp('^(([0-9]*)(\\.([0-9]+))?)$');
+
 $(function(){
+
+    var tipoIva = ['General','Reducido','Superreducido'];
+    var iva = [0.21,0.1,0.04];
+    var regex = new RegExp('^(([0-9]*)(\\.([0-9]+))?)$');
 
         var tipos = $('select');
         for(i in tipoIva){
@@ -9,6 +11,7 @@ $(function(){
             option.val(i);
             tipos.append(option);
         }
+
         $('input').eq(0).val(iva[$('select').prop('selectedIndex')]);
         $('select').change(function(){
             $('input').eq(0).val(iva[$('select').prop('selectedIndex')]);
